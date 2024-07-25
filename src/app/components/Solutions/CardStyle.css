@@ -1,0 +1,9 @@
+#card:hover{
+    
+    background: linear-gradient(180deg, #616751, #2e3224);
+}
+#card{
+    background: linear-gradient(180deg, #e8ecdf, #d2d8c5);
+    transition: background-color 0.5s ease;
+
+}
