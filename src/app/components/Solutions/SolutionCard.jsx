@@ -1,7 +1,6 @@
 import './CardStyle.css'
 import Image from 'next/image'
 export default function SolutionCard(props) {
-    console.log(props.solution.icon)
   return (
     
       <div id="card" className="group justify-around flex flex-col w-[282px] h-[380px] rounded-[20px] transition-all duration-300 m-auto my-5" >
