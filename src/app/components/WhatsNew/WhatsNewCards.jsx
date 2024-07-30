@@ -9,14 +9,21 @@ export default function WhatsNewCards(props) {
         <h1 className="text-white text-[20px] font-semibold leading-[34px]">
             {props.feature.title}
         </h1>
-        <p className="w-3/4 text-white text-sm font-normal leading-normal tracking-tight">
+        <p className="w-3/4 text-white text-sm font-normal leading-normal tracking-tight mb-2">
         {props.feature.desc}
         </p>
-        <span className="flex flex-row">
+        <span className="flex flex-row w-3/4 justify-between">
             <h1 className="text-white text-lg font-semibold leading-normal tracking-tight">
                 Check Now
             </h1>
-            
+            <Image
+            src="assets/industryArrow.svg"
+            width={20}
+            height={10}
+            alt="arrow">
+
+
+            </Image>
         </span>
 
       </div>
