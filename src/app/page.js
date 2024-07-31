@@ -8,7 +8,7 @@ import Recognition from "./components/Recognition/Recognition";
 import Footer from "./components/Footer/Footer";
 export default function Home() {
   return (
-    <body>
+    <body >
 <Navbar/>
 <Hero/>
 <Solutions/>
