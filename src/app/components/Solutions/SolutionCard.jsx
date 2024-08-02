@@ -14,8 +14,16 @@ export default function SolutionCard(props) {
         </h2>
         </div>
         <Image
-        className='ml-8 mb-3 transition-all group-hover:rotate-[90deg] duration-300'
+        className='ml-8 mb-3 transition-all group-hover:hidden duration-300'
         src={props.solution.icon}
+        width={100}
+        height={100}
+        alt="logo">
+
+        </Image>
+        <Image
+        className='ml-8 mb-3  hidden transition-all  group-hover:flex duration-300'
+        src={props.solution.iconDark}
         width={100}
         height={100}
         alt="logo">

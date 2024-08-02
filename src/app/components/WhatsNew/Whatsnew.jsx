@@ -31,8 +31,6 @@ export default function Whatsnew() {
   return (
     <div className="flex flex-col mt-[100px]">
         <div className="flex flex-col"> 
-
-
       <h1 className="w-[90%] m-auto text-center text-primary text-4xl font-semibold leading-normal">What&apos;s New at Marqflare?</h1>
       <p className='md:w-1/2  w-3/4 m-auto text-center text-[#464b37] text-sm font-normal leading-normal'>
       Everyday, we embrace transformation and generate value for all stakeholders across the globe.
@@ -44,13 +42,33 @@ export default function Whatsnew() {
       </p>
         </div>
 
-        <div className="">
+
+        <div className="flex flex-col">
+            <div className="flex md:flex-row flex-col">
+
             {
-                NewFeatures.map((feature , index)=>
-                
-                    <WhatsNewCards key={index} feature={feature}/>
+                NewFeatures.map((feature , index)=>{
+                    if(index<2){
+
+                      return ( <WhatsNewCards key={index} feature={feature}/>)
+                    }
+                }
                 )
             }
+            </div>
+            <div className="flex md:flex-row flex-col">
+
+            {
+                NewFeatures.map((feature , index)=>{
+                    if(index>=2){
+
+                      return ( <WhatsNewCards key={index} feature={feature}/>)
+                    }
+                }
+                )
+            }
+            </div>
+           
         </div>
     </div>
   )

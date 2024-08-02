@@ -51,7 +51,7 @@ export default function Industry() {
 
       </p>
       </div>
-      <div className='flex flex-col'>
+      <div className='md:flex flex-col sm:hidden'>
         <div className='flex flex-col sm:flex-row justify-around'>
 
         {
@@ -72,6 +72,64 @@ export default function Industry() {
           IndustryCards.map((industrycard ,index)=>
           {
             if(index>=4)
+            return (
+
+              <IndustryCard props={industrycard} key={index}/>
+            )
+          }
+          )
+        }
+        </div>
+      </div>
+      <div className='sm:flex hidden flex-col md:hidden'>
+        <div className='flex flex-co flex-row justify-around'>
+
+        {
+          IndustryCards.map((industrycard ,index)=>
+          {
+            if(index<2)
+            return (
+
+              <IndustryCard props={industrycard} key={index}/>
+            )
+          }
+          )
+        }
+        </div>
+        <div className='flex flex-row justify-around'>
+
+        {
+          IndustryCards.map((industrycard ,index)=>
+          {
+            if(index >=2 && index <4)
+            return (
+
+              <IndustryCard props={industrycard} key={index}/>
+            )
+          }
+          )
+        }
+        </div>
+        <div className='flex flex-col sm:flex-row justify-around'>
+
+        {
+          IndustryCards.map((industrycard ,index)=>
+          {
+            if(index>=4 && index<6)
+            return (
+
+              <IndustryCard props={industrycard} key={index}/>
+            )
+          }
+          )
+        }
+        </div>
+        <div className='flex flex-col sm:flex-row justify-around'>
+
+        {
+          IndustryCards.map((industrycard ,index)=>
+          {
+            if(index>=6 && index<8)
             return (
 
               <IndustryCard props={industrycard} key={index}/>

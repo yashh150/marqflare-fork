@@ -1,114 +1,133 @@
 "use client";
-import React from 'react'
-import Image from 'next/image'
-import Link from 'next/link'
-import { useRouter } from 'next/navigation';
-import { useState } from 'react';
-import "./Navstyle.css"
+import React from "react";
+import Image from "next/image";
+import Link from "next/link";
+import { useRouter } from "next/navigation";
+import { useState } from "react";
+import "./Navstyle.css";
 const Navlinks = [
-    {
-        title: "Solutions" , 
-        href: "/solutions"
-},
-    {
-        title: "Industries" , 
-        href: "/industries"
-},
-    {
-        title: "Customers" , 
-        href: "/customers"
-},
-    {
-        title: "Learning" , 
-        href: "/learning"
-},
-    {
-        title: "Contact Us" , 
-        href: "/contact"
-},
-]
+  {
+    title: "Solutions",
+    href: "/solutions",
+  },
+  {
+    title: "Industries",
+    href: "/industries",
+  },
+  {
+    title: "Customers",
+    href: "/customers",
+  },
+  {
+    title: "Learning",
+    href: "/learning",
+  },
+  {
+    title: "Contact Us",
+    href: "/contact",
+  },
+];
 
 export default function Navbar() {
-    const [open , setOpen] = useState(false)
-    const handleToggle = () =>{
-            setOpen(!open)
-    }
-    
-    const router = useRouter();
-    const toHome = ()=>{
+  const [open, setOpen] = useState(false);
+  const handleToggle = () => {
+    setOpen(!open);
+  };
 
-        router.push("/")
-    }
+  const router = useRouter();
+  const toHome = () => {
+    router.push("/");
+  };
   return (
-    <div className='w-full flex flex-col md:flex-row justify-between transition-all duration-200'>
-        <div className='flex flex-row justify-between my-[40px] md:w-auto mx-[8%] cursor-pointer'>
-
-<Image 
-      className='sm:hidden'
-      src="assets/logo.svg"
-      width={110}
-      height={50}
-      alt="logo"
-      onClick={toHome}>
-        
-      </Image>
-      <div className='w-full flex flex-row justify-between'>
-
-<Image 
-      className='hidden sm:flex m-auto'
-      src="assets/logo.svg"
-      width={200}
-      height={50}
-      alt="logo"
-      onClick={toHome}>
-        
-      </Image>
-      <button className='sm:flex md:hidden hidden ml-56 mr-0 whitespace-nowrap border-2 border-secondary text-secondary my-[30px] px-[20px] py-[10px] rounded-full hover:bg-secondary hover:text-white transition-all duration-300 max-w-52'  > 
-             <p className='text-center w-full m-auto'>
-             Talk To Sales
-            </p>
-        </button>
-      </div>
-
-      <div className='sm:hidden flex flex-col h-10 justify-around relative my-auto mx-6 ' onClick={handleToggle}>
-        <div className={`bg-black w-10 h-1 rounded-lg ${open?"opacity-0":"opacity-100"} transition-all duration-300`}/>
-        
-<div>
-
-        <div className={`bg-black w-10 rounded-lg z-0 ${open?"rotate-[-45deg] h-1":""} transition-all duration-300`}/>
-        <div className={`bg-black w-10 h-1 rounded-lg z-10 block ${open?"rotate-[45deg]":""} transition-all duration-300`}/>
-
-</div>
-        
-        <div className={`bg-black w-10 h-1 rounded-lg md:opacity-100 ${open?"opacity-0":"opacity-100"} transition-all duration-300`}/>
-      </div>
+    <div className="w-full flex flex-col md:flex-row justify-between transition-all duration-200">
+      <div className="flex flex-row justify-between my-[40px] md:w-auto mx-[8%] cursor-pointer">
+        <Image
+          className="sm:hidden"
+          src="assets/logo.svg"
+          width={110}
+          height={50}
+          alt="logo"
+          onClick={toHome}
+        ></Image>
+        <div className="w-full flex flex-row justify-between">
+          <Image
+            className="hidden sm:flex m-auto"
+            src="assets/logo.svg"
+            width={200}
+            height={50}
+            alt="logo"
+            onClick={toHome}
+          ></Image>
+          <button className="sm:flex md:hidden hidden ml-56 mr-0 whitespace-nowrap border-2 border-secondary text-secondary my-[30px] px-[20px] py-[10px] rounded-full hover:bg-secondary hover:text-white transition-all duration-300 max-w-52">
+            <p className="text-center w-full m-auto">Talk To Sales</p>
+          </button>
         </div>
-    
-        
-        
-            <span className={`flex flex-col sm:hidden w-full justify-around transition-all duration-300 ${!open?"opacity-0 translate-x-10 h-0":"h-full opacity-100 "}`}>
-                {
-                    Navlinks.map((link , index)=>
-                        <Link className='my-[40px] w-full  px-auto text-center whitespace-nowrap text-primary' href={link.href} key={index}>{link.title}</Link>
-                    )
-                }
-        <button className='whitespace-nowrap border-2 border-secondary text-secondary my-[30px] px-[20px] py-[10px] rounded-full hover:bg-secondary hover:text-white transition-all duration-300 max-w-52 mx-auto'  > 
-            Talk To Sales
+
+        <div
+          className="sm:hidden flex flex-col h-10 justify-around relative my-auto mx-6 "
+          onClick={handleToggle}
+        >
+          <div
+            className={`bg-black w-10 h-1 rounded-lg ${
+              open ? "opacity-0" : "opacity-100"
+            } transition-all duration-300`}
+          />
+
+          <div>
+            <div
+              className={`bg-black w-10 rounded-lg z-0 ${
+                open ? "rotate-[-45deg] h-1" : ""
+              } transition-all duration-300`}
+            />
+            <div
+              className={`bg-black w-10 h-1 rounded-lg z-10 block ${
+                open ? "rotate-[45deg]" : ""
+              } transition-all duration-300`}
+            />
+          </div>
+
+          <div
+            className={`bg-black w-10 h-1 rounded-lg md:opacity-100 ${
+              open ? "opacity-0" : "opacity-100"
+            } transition-all duration-300`}
+          />
+        </div>
+      </div>
+
+      <span
+        className={`flex flex-col m-auto sm:hidden w-[50%] justify-around transition-all duration-300 ${
+          !open ? "opacity-0 translate-x-10 h-0" : "h-full opacity-100 "
+        }`}
+      >
+        {Navlinks.map((link, index) => (
+          <Link
+            className="my-[40px] w-full  px-auto text-center whitespace-nowrap text-primary"
+            href={link.href}
+            key={index}
+          >
+            {link.title}
+          </Link>
+        ))}
+        <button className="whitespace-nowrap border-2 border-secondary text-secondary my-[30px] px-[20px] py-[10px] rounded-full hover:bg-secondary hover:text-white transition-all duration-300 max-w-52 mx-auto">
+          Talk To Sales
         </button>
-            </span>
-            <span className={`hidden sm:flex w-full justify-around transition-all duration-300`}>
-                {
-                    Navlinks.map((link , index)=>
-                        <Link className='my-[40px] w-full  px-auto text-center whitespace-nowrap text-primary' href={link.href} key={index}>{link.title}</Link>
-                    )
-                }
-            </span>
-        <button className='md:flex hidden whitespace-nowrap border-2 border-secondary text-secondary my-[30px] px-[20px] py-[10px] rounded-full hover:bg-secondary hover:text-white transition-all duration-300 max-w-52 mx-[8%]'  > 
-             <p className='text-center w-full m-auto'>
-             Talk To Sales
-            </p>
-        </button>
-        
+      </span>
+      <span
+        className={`hidden sm:flex w-full justify-around transition-all duration-300`}
+      >
+        {Navlinks.map((link, index) => (
+          <Link
+            className="my-[40px] w-full  px-auto text-center whitespace-nowrap text-primary"
+            href={link.href}
+            key={index}
+          >
+            {link.title}
+          </Link>
+        ))}
+      </span>
+      <button className="md:flex hidden whitespace-nowrap border-2 border-secondary text-secondary my-[30px] px-[20px] py-[10px] rounded-full hover:bg-secondary hover:text-white transition-all duration-300 max-w-52 mx-[8%]">
+        <p className="text-center w-full m-auto">Talk To Sales</p>
+      </button>
     </div>
-  )
+  );
 }

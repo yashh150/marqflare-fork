@@ -13,23 +13,7 @@ export default function Brands() {
       <p className='w-1/2 m-auto h-[11px] text-center text-[#e8ecdf] text-sm font-normal leading-[15px]'>
       We have been working with some Fortune 50+ clients
       </p>
-      <table>
-<tbody>
-<tr>
-{
-    
-}
-</tr>
-<tr>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-<td>&nbsp;</td>
-</tr>
-</tbody>
-</table>
+  
       <div className="flex flex-col p-5 w-[80%] m-auto">
 
         <div className="flex flex-row justify-around mb-4 flex-wrap">
@@ -40,7 +24,7 @@ export default function Brands() {
             if(index<6)
             return (
             <Image
-            className="mx-4 mt-10"
+            className="mx-4 mt-10  hover:scale-110 transition-all duration-150"
             key={index}
             src={logo.src}
             width={logo.width}
@@ -61,7 +45,7 @@ export default function Brands() {
             if(index>=6)
             return (
             <Image
-            className="mx-4 mt-10"
+            className="mx-4 mt-10 hover:scale-110 transition-all duration-150"
             key={index}
             src={logo.src}
             width={logo.width}

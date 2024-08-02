@@ -25,7 +25,7 @@ export default function Hero() {
         <p className='text-center text-primary text-lg sm:text-xl md:text-4xl font-semibold leading-[60px]'>
         360* Value
         </p>
-        <p className=' md:mt-8 mx-auto text-center text-secondary text-sm md:text-lg font-normal leading-normal'>
+        <p className='sm:mt-8 mx-auto text-center text-secondary text-sm md:text-lg font-normal leading-normal'>
         Everyday, we embrace transformation and generate value for all stakeholders across the globe.
         </p>
       </div>

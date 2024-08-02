@@ -131,11 +131,70 @@ const DomainArray = [
 
 
 
-export default function Footer() {
+export default function FooterMoible() {
   return (
-    <div className="bg-[#d2d8c5]  py-10">
-      <div className="flex flex-col sm:flex-row justify-around flex-auto">
-            <div  className="flex flex-row justify-around ">
+    <div className="bg-[#d2d8c5]  p-10">
+        <div className="hidden sm:flex flex-row justify-around">
+        <Image
+                src="assets/marqBlue.svg"
+                width={200}
+                height={200}
+                alt="logo"
+                />
+                <div className="flex flex-col justify-around">
+                    {
+                        SolutionArray.map((solution , index) =>
+                            <Link key={index} className="text-[#001254] text-sm font-normal" href={solution.link}>{solution.title}</Link>
+
+                        )
+                    }
+
+                </div>
+
+                <div className="flex flex-col justify-around">
+                    {
+                        DomainArray.map((solution , index) =>
+                            <Link key={index} className="text-[#001254] text-sm font-normal" href={solution.link}>{solution.title}</Link>
+
+                        )
+                    }
+
+                </div>    
+            <div className="flex flex-col justify-around">
+                    {
+                        serviceArray.map((solution , index) =>
+                            <Link key={index} className="text-[#001254] text-sm font-normal" href={solution.link}>{solution.title}</Link>
+
+                        )
+                    }
+
+                </div>    
+
+
+                <div className="flex flex-col justify-around">
+                    {
+                        aboutArray.map((solution , index) =>
+                            <Link key={index} className="text-[#001254] text-sm font-normal" href={solution.link}>{solution.title}</Link>
+
+                        )
+                    }
+
+                </div>   
+            <div className="flex flex-col justify-around">
+                    {
+                        socialArray.map((solution , index) =>
+                            <Link key={index} className="text-[#001254] text-sm font-normal" href={solution.link}>{solution.title}</Link>
+
+                        )
+                    }
+
+                </div>  
+
+        </div>
+
+    
+      <div className="flex flex-col sm:flex-row justify-around sm:hidden">
+            <div  className="flex flex-row justify-around mb-3">
                 <Image
                 src="assets/marqBlue.svg"
                 width={200}
@@ -194,5 +253,6 @@ export default function Footer() {
             </div>
       </div>
     </div>
+    
   );
 }
