@@ -1,0 +1,11 @@
+.CardContainer {
+    scroll-snap-type: y mandatory;
+  }
+  
+  .CardChild {
+    scroll-snap-align: start;
+  }
+
+.blur-border{
+    box-shadow: inset 0px 0px 40px 40px #ffffff;
+}

@@ -2,6 +2,7 @@
 import ReviewCard from "./ReviewCard"
 import Image from "next/image"
 import { useRef } from "react"
+import './TrustStyle.css'
 export default function Trust() {
     const HorizontalScroll = useRef(null)
 const onLeft=()=>{
@@ -28,7 +29,7 @@ Learn what Marqflare Solutions can do for you
   </div>
   <div className="flex flex-row m-auto w-[90%] justify-between">
     <Image
-className="w-5 mx-10"
+className="w-5 sm:mx-10 mx-1"
     src="assets/leftArrow.svg"
     width={10}
     height={10}
@@ -43,7 +44,7 @@ className="w-5 mx-10"
     <ReviewCard/>
   </div>
     <Image
-    className="w-5 mx-10"
+    className="w-5 sm:mx-10 mx-1"
     src="assets/rightArrow.svg"
     width={10}
     height={10}
