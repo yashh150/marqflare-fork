@@ -51,7 +51,7 @@ export default function Industry() {
 
       </p>
       </div>
-      <div className='md:flex flex-col sm:hidden'>
+      <div className='md:flex flex-col sm:hidden max-w-[1200px] m-auto'>
         <div className='flex flex-col sm:flex-row justify-around'>
 
         {

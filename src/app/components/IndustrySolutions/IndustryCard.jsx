@@ -3,7 +3,7 @@ import Image from 'next/image'
 import './Styles.css'
 export default function IndustryCard(props) {
   return (
-    <div className="flex gradient-border group flex-col active:scale-105 w-[272px] h-[305px] bg-gradient-to-b from-[#b4baa0] to-primary rounded-[20px] mx-auto my-5 transition-all duration-150">
+    <div className="flex gradient-border group flex-col active:scale-105 w-[272px] h-[305px] bg-gradient-to-b from-[#b4baa0] to-primary rounded-[20px] mx-5 my-5 transition-all duration-150">
       <span className='mt-[34px] w-5/6 m-auto flex flex-row justify-between'>
         <h1 className='text-white text-center ml-3 text-2xl font-semibold group-hover:text-[1.55rem] transition-all duration-300'>
           {props.props.title}
