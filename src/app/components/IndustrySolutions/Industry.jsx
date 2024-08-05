@@ -40,18 +40,18 @@ const IndustryCards = [
 
 export default function Industry() {
   return (
-    <div className=' bg-gradient-to-b from-[#464b37] to-[#212319] flex flex-col'>
+    <div className='pb-[185px] pt-[82px] bg-gradient-to-b from-[#464b37] to-[#212319] flex flex-col'>
       <div className="flex flex-col">
 
-      <h1 className='text-center mt-10 text-[#e8ecdf] text-3xl font-semibold leading-[60px]'> 
+      <h1 className='text-center mt-10 text-[#e8ecdf] text-3xl md:text-[3rem] font-semibold leading-[60px]'> 
       Solution for Industries
       </h1>
-      <p className='md:w-1/2  w-3/4 m-auto text-center text-[#e8ecdf] text-sm font-norma leading-normal'>
+      <p className='md:w-1/2 mt-[15px] w-3/4 m-auto text-center text-[#e8ecdf] text-sm font-norma leading-normal'>
       Discover our solutions for every industry. Enhance the customer experience through advanced personalization at every touchpoint in their journey, leveraging data-driven insights to build and sustain robust customer relationships
 
       </p>
       </div>
-      <div className='md:flex flex-col sm:hidden max-w-[1200px] m-auto'>
+      <div className='mt-[50px] md:flex flex-col sm:hidden md:max-w-[1200px] m-auto'>
         <div className='flex flex-col sm:flex-row justify-around'>
 
         {

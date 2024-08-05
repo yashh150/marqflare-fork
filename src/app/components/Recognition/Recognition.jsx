@@ -1,5 +1,4 @@
-import React from 'react'
-
+import { LogoArray } from "../../../../public/assets/LogoIndex"
 export default function Recognition() {
   return (
     <div className='pb-10 flex flex-col bg-gradient-to-br from-[#464b37] to-[#212319]'>

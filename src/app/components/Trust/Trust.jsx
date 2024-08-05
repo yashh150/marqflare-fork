@@ -13,11 +13,11 @@ const onRight=()=>{
 }
 
   return (
-    <div className="flex flex-col mt-10">
+    <div className="flex flex-col mt-[134px]">
        <div className="flex flex-col"> 
 
 
-<h1 className="w-[90%] m-auto text-center text-primary text-4xl font-semibold leading-normal">See how people are trusting us</h1>
+<h1 className="w-[90%] m-auto text-center text-primary text-3xl md:text-[3rem] font-semibold leading-normal">See how people are trusting us</h1>
 <p className='md:w-1/2  w-3/4 m-auto text-center text-[#464b37] text-sm font-normal leading-normal'>
 Everyday, we embrace transformation and generate value for all stakeholders across the globe.
 

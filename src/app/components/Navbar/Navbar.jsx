@@ -39,7 +39,7 @@ export default function Navbar() {
     router.push("/");
   };
   return (
-    <div className="w-full flex flex-col md:flex-row justify-between transition-all duration-200">
+    <div className="w-full flex flex-col  md:flex-row justify-between transition-all duration-200">
       <div className="flex flex-row justify-between my-[40px] md:w-auto mx-[8%] cursor-pointer">
         <Image
           className="sm:hidden"
@@ -53,7 +53,7 @@ export default function Navbar() {
           <Image
             className="hidden sm:flex m-auto"
             src="assets/logo.svg"
-            width={200}
+            width={110}
             height={50}
             alt="logo"
             onClick={toHome}
@@ -113,7 +113,7 @@ export default function Navbar() {
         </button>
       </span>
       <span
-        className={`hidden sm:flex w-full justify-around transition-all duration-300`}
+        className={`hidden max-w-[579px] m-auto sm:flex w-full justify-around transition-all duration-300`}
       >
         {Navlinks.map((link, index) => (
           <Link

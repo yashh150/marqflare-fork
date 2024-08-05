@@ -29,9 +29,9 @@ const NewFeatures = [
 
 export default function Whatsnew() {
   return (
-    <div className="flex flex-col mt-[100px]">
+    <div className="flex flex-col mx-auto mt-[100px] max-w-[1100px]">
         <div className="flex flex-col"> 
-      <h1 className="w-[90%] m-auto text-center text-primary text-4xl font-semibold leading-normal">What&apos;s New at Marqflare?</h1>
+      <h1 className="w-[90%] m-auto text-center text-primary text-3xl md:text-[3rem] font-semibold leading-normal">What&apos;s New at Marqflare?</h1>
       <p className='md:w-1/2  w-3/4 m-auto text-center text-[#464b37] text-sm font-normal leading-normal'>
       Everyday, we embrace transformation and generate value for all stakeholders across the globe.
 

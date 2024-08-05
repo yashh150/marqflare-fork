@@ -3,8 +3,8 @@ import Image from 'next/image'
 export default function Hero() {
   return (
     <div className='w-full flex-col transition-all duration-500'>
-      <h1 className='max-w-[950px] w-full sm:text-[2.5rem] sm:leading-[3.75rem] sm:font-semibold text-[2rem] leading-[3rem] font-semibold text-[#2e3224] mx-auto text-center'>
-      Evolving Brand & Communication Strategy with Tech, Data, and Creativity
+      <h1 className='max-w-[940px] w-full sm:text-[2.5rem] sm:leading-[3.75rem] sm:font-semibold text-[2rem] leading-[3rem] font-semibold text-[#2e3224] mx-auto text-center'>
+      Evolving Brand & Communication Strategy<br/> with Tech, Data, and Creativity
       </h1>
       <p className='text-center mt-[16px] text-primary'>
       Unlock accelerated growth for top-tier global enterprises with our agile solutions
