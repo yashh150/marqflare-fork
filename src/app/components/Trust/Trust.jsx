@@ -13,7 +13,7 @@ const onRight=()=>{
 }
 
   return (
-    <div className="flex flex-col mt-[134px]">
+    <div className="flex flex-col mt-[134px] max-w-[1400px] mx-auto">
        <div className="flex flex-col"> 
 
 

@@ -1,0 +1,6 @@
+.gradient-border {
+    background: linear-gradient(180deg ,#7A7D70, #363928);
+    border-radius: 20px; /* Optional: For rounded borders */
+    
+    display: inline-block;
+  }

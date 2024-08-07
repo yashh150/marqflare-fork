@@ -16,6 +16,7 @@ export default function Home() {
 <Whatsnew/>
 <Trust/>
 <Recognition/>
+
 <Footer/>
     </body>
   );

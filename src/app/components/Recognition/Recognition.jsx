@@ -1,10 +1,11 @@
 import { LogoArray } from "../../../../public/assets/LogoIndex"
+import Image from "next/image"
 export default function Recognition() {
   return (
-    <div className='pb-10 flex flex-col bg-gradient-to-br from-[#464b37] to-[#212319]'>
+    <div className='pb-10 pt-[86px] flex flex-col bg-gradient-to-br from-[#464b37] to-[#212319]'>
       <div className="flex flex-col">
 
-<h1 className='text-center mt-10 text-[#e8ecdf] text-3xl font-semibold leading-[60px]'> 
+<h1 className='text-center mt-10 text-[#e8ecdf] text-3xl md:text-[3rem] font-semibold leading-[60px]'> 
 Industry recognition
 </h1>
 <p className='md:w-1/2  w-3/4 m-auto text-center text-[#e8ecdf] text-sm font-norma leading-normal'>
@@ -13,12 +14,27 @@ Learn what Marqflare Solutions can do for you
 
 </p>
 </div>
-<div className='flex flex-col sm:flex-row justify-around w-3/4 m-auto'>
-    <h1 className='text-[#d2d8c5] text-[41px] font-semibold leading-[60px] mx-auto my-3 '>Logo</h1>
-    <h1 className='text-[#d2d8c5] text-[41px] font-semibold leading-[60px] mx-auto my-3 '>Logo</h1>
-    <h1 className='text-[#d2d8c5] text-[41px] font-semibold leading-[60px] mx-auto my-3 '>Logo</h1>
-    <h1 className='text-[#d2d8c5] text-[41px] font-semibold leading-[60px] mx-auto my-3 '>Logo</h1>
-</div>
+<div className="flex flex-row justify-around flex-wrap p-5 w-[80%] m-auto">
+
+      {
+        LogoArray.map((logo , index)=>
+        {
+            if(index>=6)
+            return (
+            <Image
+            className="mx-4 mt-10 hover:scale-110 transition-all duration-150"
+            key={index}
+            src={logo.src}
+            width={logo.width}
+            height={logo.height}
+            alt="logo">
+            </Image>
+
+            )
+        }
+        )
+      }
+        </div>
     </div>
   )
 }
