@@ -2,7 +2,7 @@ import { LogoArray } from "../../../../public/assets/LogoIndex"
 import Image from "next/image"
 export default function Recognition() {
   return (
-    <div className='pb-10 pt-[86px] flex flex-col bg-gradient-to-br from-[#464b37] to-[#212319]'>
+    <div className='pb-10 pt-[60px] flex flex-col bg-gradient-to-br from-[#464b37] to-[#212319]'>
       <div className="flex flex-col">
 
 <h1 className='text-center mt-10 text-[#e8ecdf] text-3xl md:text-[3rem] font-semibold leading-[60px]'> 
