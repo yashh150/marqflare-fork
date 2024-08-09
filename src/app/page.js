@@ -6,6 +6,7 @@ import Whatsnew from "./components/WhatsNew/Whatsnew";
 import Trust from "./components/Trust/Trust";
 import Recognition from "./components/Recognition/Recognition";
 import Footer from "./components/Footer/Footer";
+import Form from "./components/ContactForm/Form";
 export default function Home() {
   return (
     <body >
@@ -16,7 +17,7 @@ export default function Home() {
 <Whatsnew/>
 <Trust/>
 <Recognition/>
-
+<Form/>
 <Footer/>
     </body>
   );
