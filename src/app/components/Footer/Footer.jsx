@@ -133,8 +133,8 @@ const DomainArray = [
 
 export default function FooterMoible() {
   return (
-    <div className="bg-[#d2d8c5]  pt-[375px] pb-[77px] md:px-20" >
-        <div className="hidden sm:flex flex-row justify-around">
+    <div className="bg-[#d2d8c5]  pt-[400px] pb-[77px] md:px-20 " >
+        <div className="hidden sm:flex flex-row justify-around max-w-[1400px] m-auto">
         <Image
                 src="assets/marqBlue.svg"
                 width={150}
