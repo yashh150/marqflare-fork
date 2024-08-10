@@ -1,11 +1,14 @@
 <svg width="125" height="125" viewBox="0 0 125 125" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M100.505 63C100.505 84.2808 83.4737 101.5 62.5047 101.5C41.5356 101.5 24.5047 84.2808 24.5047 63C24.5047 41.7192 41.5356 24.5 62.5047 24.5C83.4737 24.5 100.505 41.7192 100.505 63Z" stroke="url(#paint0_linear_273_2197)" stroke-width="3"/>
-<circle cx="62.5045" cy="62.5" r="60" transform="rotate(90.9437 62.5045 62.5)" stroke="#737A62" stroke-width="3"/>
-<circle cx="54" cy="63" r="9" fill="#737A62"/>
-<circle cx="71.5" cy="42.5" r="9.5" fill="#737A62"/>
-<circle cx="71.5" cy="84" r="11" fill="#737A62"/>
+<path d="M100.505 63.0045C100.505 84.2853 83.474 101.504 62.5049 101.504C41.5358 101.504 24.5049 84.2853 24.5049 63.0045C24.5049 41.7237 41.5358 24.5045 62.5049 24.5045C83.474 24.5045 100.505 41.7237 100.505 63.0045Z" stroke="url(#paint0_linear_1036_573)" stroke-width="3"/>
+<circle cx="62.5048" cy="62.5045" r="60" transform="rotate(90.9437 62.5048 62.5045)" stroke="#737A62" stroke-width="3"/>
+<path d="M25.5 63.0045H54" stroke="#737A62" stroke-width="3"/>
+<path d="M30 43.0045H71.5" stroke="#737A62" stroke-width="3"/>
+<path d="M30 84.0045H71.5" stroke="#737A62" stroke-width="3"/>
+<circle cx="54" cy="63.0045" r="9" fill="#737A62"/>
+<circle cx="71.5" cy="42.5045" r="9.5" fill="#737A62"/>
+<circle cx="71.5" cy="84.0045" r="11" fill="#737A62"/>
 <defs>
-<linearGradient id="paint0_linear_273_2197" x1="62.5047" y1="23" x2="62.5047" y2="103" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_1036_573" x1="62.5049" y1="23.0045" x2="62.5049" y2="103.004" gradientUnits="userSpaceOnUse">
 <stop stop-color="#616751"/>
 <stop offset="1" stop-color="#2E3224"/>
 </linearGradient>

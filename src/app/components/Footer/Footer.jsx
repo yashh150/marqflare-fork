@@ -137,11 +137,12 @@ export default function FooterMoible() {
         <div className="hidden sm:flex flex-row justify-around">
         <Image
                 src="assets/marqBlue.svg"
-                width={200}
+                width={150}
                 height={200}
                 alt="logo"
+                className="mt-[-110px]"
                 />
-                <div className="flex flex-col justify-around">
+                <div className="flex flex-col justify-start">
                     {
                         SolutionArray.map((solution , index) =>
                             <Link key={index} className="text-[#001254] text-sm font-normal" href={solution.link}>{solution.title}</Link>
@@ -151,7 +152,7 @@ export default function FooterMoible() {
 
                 </div>
 
-                <div className="flex flex-col justify-around">
+                <div className="flex flex-col justify-start">
                     {
                         DomainArray.map((solution , index) =>
                             <Link key={index} className="text-[#001254] text-sm font-normal" href={solution.link}>{solution.title}</Link>
@@ -160,7 +161,7 @@ export default function FooterMoible() {
                     }
 
                 </div>    
-            <div className="flex flex-col justify-around">
+            <div className="flex flex-col justify-start">
                     {
                         serviceArray.map((solution , index) =>
                             <Link key={index} className="text-[#001254] text-sm font-normal" href={solution.link}>{solution.title}</Link>
@@ -171,7 +172,7 @@ export default function FooterMoible() {
                 </div>    
 
 
-                <div className="flex flex-col justify-around">
+                <div className="flex flex-col jjustify-start">
                     {
                         aboutArray.map((solution , index) =>
                             <Link key={index} className="text-[#001254] text-sm font-normal" href={solution.link}>{solution.title}</Link>
@@ -180,7 +181,7 @@ export default function FooterMoible() {
                     }
 
                 </div>   
-            <div className="flex flex-col justify-around">
+            <div className="flex flex-col justify-start">
                     {
                         socialArray.map((solution , index) =>
                             <Link key={index} className="text-[#001254] text-sm font-normal" href={solution.link}>{solution.title}</Link>
@@ -201,7 +202,7 @@ export default function FooterMoible() {
                 height={200}
                 alt="logo"
                 />
-                <div className="flex flex-col justify-around">
+                <div className="flex flex-col justify-start">
                     {
                         SolutionArray.map((solution , index) =>
                             <Link key={index} className="text-[#001254] text-sm font-normal" href={solution.link}>{solution.title}</Link>

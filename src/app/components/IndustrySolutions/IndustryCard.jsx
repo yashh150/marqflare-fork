@@ -20,7 +20,7 @@ export default function IndustryCard(props) {
         <Image
           className="mx-auto mb-[65px] group-hover:scale-110 transition-all duration-300 "
           src={props.props.icon}
-          width={96}
+          width={110}
           height={130}
           alt="logo"
         ></Image>

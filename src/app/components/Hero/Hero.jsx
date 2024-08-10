@@ -9,11 +9,18 @@ export default function Hero() {
       <p className='text-center mt-[16px] text-primary'>
       Unlock accelerated growth for top-tier global enterprises with our agile solutions
       </p>
-      <button className='w-[210px] my-[30px] block border-2 border-secondary hover:text-secondary px-[20px] py-[10px] rounded-full bg-secondary hover:bg-white text-white transition-all duration-300 mx-auto'> 
-            <strong>
+      <button className=' my-[30px] border-2 border-secondary flex flex-row px-[20px] py-[10px] rounded-full bg-secondary  text-white transition-all duration-300 mx-auto'> 
+            <strong className='text-white text-xl font-semibold leading-snug whitespace-nowrap'>
 
             Unlock Now
             </strong>
+            <Image
+            className="my-auto pt-1 ml-[10px]" 
+            src="assets/boldArrow.svg"
+            width={20}
+            height={10}
+            alt="arrow"
+          ></Image>
            
         </button>
         <Image 
@@ -25,11 +32,13 @@ export default function Hero() {
     
       </Image>
       <div className=' flex flex-col relative top-[-50px] w-3/4 m-auto'>
-        <p className='text-center text-primary text-lg sm:text-xl md:text-4xl font-semibold leading-[60px]'>
+        <p className='text-center text-primary md:text-[48px] sm:text-xl  font-semibold leading-[60px]'>
         360* Value
         </p>
-        <p className='sm:mt-12 w-1/2 mx-auto text-center text-secondary text-sm md:text-lg font-normal leading-normal '>
-        Everyday, we embrace transformation and generate value for all stakeholders across the globe.
+        <p className='font-[400] sm:mt-12 w-1/2 mx-auto text-center text-secondary text-sm md:text-lg  leading-normal mt-[15px]'>
+        Everyday, we embrace transformation and generate value for 
+        <br/>
+        all stakeholders across the globe.
         </p>
       </div>
     </div>

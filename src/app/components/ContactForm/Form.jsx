@@ -7,7 +7,13 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
-import LeafletMap from './LeafletMap';
+
+import dynamic from 'next/dynamic';
+
+const Map = dynamic(() => import('./LeafletMap'), {
+  ssr: false // This ensures the component is only rendered on the client-side
+});
+
 export default function Form() {
   const [age, setAge] = useState('');
 
@@ -112,7 +118,7 @@ export default function Form() {
  
 
 <div className='pb-20 px-20 pt-10  md:w-[45%] h-[300px]'>
-  <LeafletMap/>
+  <Map/>
 </div>
 </div>
       </div>

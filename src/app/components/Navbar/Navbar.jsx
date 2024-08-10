@@ -128,7 +128,7 @@ export default function Navbar() {
         ))}
       </span>
       <button className="md:flex hidden whitespace-nowrap border-2 border-secondary text-secondary my-[30px] px-[20px] py-[10px] rounded-full hover:bg-secondary hover:text-white transition-all duration-300 max-w-52 mx-[8%]">
-        <strong className="text-center w-full m-auto">Talk To Sales</strong>
+        <strong className="text-center w-full m-auto font-[600]">Talk To Sales</strong>
       </button>
     </div>
   );
