@@ -21,7 +21,7 @@ export default function Form() {
     setAge(event.target.value);
   };
   return (
-    <div className='bg-white h-[350px] z-10'>
+    <div className='bg-white h-[350px] z-10 mb-20'>
       <div className="w-[80%] m-auto  bg-white rounded-[20px] shadow-lg border relative top-[115px] pb-[10px] max-w-[1200px]">
       <h1 className="w-[90%] mt-[47px] mx-auto text-center text-primary text-3xl md:text-[3rem] font-semibold leading-normal">Want to Say Hello!</h1>
       <p className='md:w-1/2  w-3/4 max-w-[400px] m-auto text-center text-[#464b37] text-sm font-normal leading-normal'>

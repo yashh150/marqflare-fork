@@ -10,10 +10,10 @@ export default function Hero() {
       Unlock accelerated growth for top-tier global enterprises with our agile solutions
       </p>
       <button className=' my-[30px] border-2 border-secondary flex flex-row px-[20px] py-[10px] rounded-full bg-secondary  text-white transition-all duration-300 mx-auto'> 
-            <strong className='text-white text-xl font-semibold leading-snug whitespace-nowrap'>
+            <p className='text-white text-xl font-se leading-snug whitespace-nowrap'>
 
             Unlock Now
-            </strong>
+            </p>
             <Image
             className="my-auto pt-1 ml-[10px]" 
             src="assets/boldArrow.svg"

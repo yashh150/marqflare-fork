@@ -39,7 +39,7 @@ export default function Navbar() {
     router.push("/");
   };
   return (
-    <div className="w-full flex flex-col  md:flex-row justify-between transition-all duration-200">
+    <div className="w-full flex flex-col  md:flex-row justify-between transition-all duration-200 px-16">
       <div className="flex flex-row justify-between my-[40px] md:w-auto mx-[8%] cursor-pointer">
         <Image
           className="sm:hidden"

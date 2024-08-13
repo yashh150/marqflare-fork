@@ -43,7 +43,7 @@ export default function Whatsnew() {
         </div>
 
 
-        <div className="flex flex-col">
+        <div className="flex flex-col scale-110 mt-10">
             <div className="flex md:flex-row flex-col">
 
             {

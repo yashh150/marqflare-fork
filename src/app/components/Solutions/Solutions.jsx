@@ -31,10 +31,10 @@ const SolutionsArray = [
 export default function Solutions() {
   return (
     <div>
-      <p className="w-[90%] mx-auto mb-[79px] text-center text-[#2e3224] text-5xl font-medium leading-normal">
+      <p className="w-[90%] mx-auto text-center text-[#2e3224] text-5xl font-medium leading-normal">
         Learn what Marqflare Solutions can do for you
       </p>
-      <div className="w-[90%] max-w-[1250px] my-10 mx-auto flex flex-col sm:hidden md:flex md:flex-row justify-around">
+      <div className="w-[90%] max-w-[1250px] mb-10 mx-auto flex flex-col sm:hidden md:flex md:flex-row justify-around">
         {SolutionsArray.map((solution, index) => (
           <SolutionCard key={index} solution={solution} />
         ))}

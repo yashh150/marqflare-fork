@@ -1,7 +1,7 @@
 import Image from "next/image"
 export default function WhatsNewCards(props) {
   return (
-    <div className="justify-between md:mr-[27px] flex flex-row sm:w-[500px] w-[70%] mt-[27px] mx-auto md:h-[250px] h-[150pxs] bg-[#464b37] rounded-[20px]">
+    <div className=" justify-between md:mr-[27px] flex flex-row sm:w-[600px] w-[70%] mt-[27px] mx-auto md:h-[300px] h-[150pxs] bg-[#464b37] rounded-[20px]">
       <div className="flex flex-col w-1/2 sm:p-[40px] justify-around">
         <h1 className="sm:text-[30px] text-[3.18px] text-[#8f9777] font-semibold leading-[34px] ml-5 sm:ml-1 sm:mt-1 mt-3">
             /.
@@ -28,7 +28,7 @@ export default function WhatsNewCards(props) {
         </span>
 
       </div>
-      <div className="flex w-1/2 md:h-[250px] h-[150pxs] bg-[#616751] rounded-[20px]" >
+      <div className="flex w-1/2 md:h-[300px] h-[300px] bg-[#616751] rounded-[20px]" >
         <Image
         className="m-auto hover:scale-110 transition-all duration-150"
         src={props.feature.image}
