@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import navLogo from "@/../public/assets/marqBlue.svg"
 const SolutionArray = [
     {
         title : "Brand Solution",
@@ -136,7 +137,7 @@ export default function FooterMoible() {
     <div className="bg-[#d2d8c5] pt-[320px] pb-[77px] md:px-20 " >
         <div className="hidden sm:flex flex-row justify-around max-w-[1400px] m-auto">
         <Image
-                src="assets/marqBlue.svg"
+                src={navLogo}
                 width={150}
                 height={200}
                 alt="logo"

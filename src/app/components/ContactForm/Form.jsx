@@ -7,6 +7,11 @@ import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
 import Select from '@mui/material/Select';
+import sendArrow from "@/../public/assets/sendArrow.svg"
+import email from "@/../public/assets/email.svg"
+
+import phone from "@/../public/assets/phone.svg"
+
 
 import dynamic from 'next/dynamic';
 
@@ -77,7 +82,7 @@ export default function Form() {
 
           </p>
           <Image
-          src="assets/sendArrow.svg"
+          src={sendArrow}
           width={20}
           height={20}
           className='my-auto mr-3'
@@ -86,7 +91,7 @@ export default function Form() {
         <span className='flex flex-row sm:ml-[30px]'>
             <Image
 
-            src="assets/phone.svg"
+            src={phone}
             width={30}
             height={20}
             alt="phone"
@@ -101,7 +106,7 @@ export default function Form() {
         <span className='flex flex-row sm:ml-[55px]' >
             <Image
 
-            src="assets/email.svg"
+            src={email}
             width={30}
             height={20}
             alt="phone"

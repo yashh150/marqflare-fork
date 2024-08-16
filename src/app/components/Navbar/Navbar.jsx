@@ -4,6 +4,12 @@ import Image from "next/image";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
+import Logo from "@/../public/assets/logo.svg"
+import sendArrow from "@/../public/assets/sendArrow.svg"
+import email from "@/../public/assets/email.svg"
+import navLogo from "@/../public/assets/marqBlue.svg"
+import phone from "@/../public/assets/phone.svg"
+
 import "./Navstyle.css";
 const Navlinks = [
   {
@@ -43,7 +49,7 @@ export default function Navbar() {
       <div className="flex flex-row justify-between my-[40px] md:w-auto mx-[8%] cursor-pointer">
         <Image
           className="sm:hidden"
-          src="assets/logo.svg"
+          src={Logo}
           width={110}
           height={50}
           alt="logo"
@@ -52,7 +58,7 @@ export default function Navbar() {
         <div className="w-full flex flex-row justify-between">
           <Image
             className="hidden sm:flex m-auto"
-            src="assets/logo.svg"
+            src={Logo}
             width={110}
             height={50}
             alt="logo"

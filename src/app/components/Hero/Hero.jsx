@@ -1,4 +1,4 @@
-
+import boldArrow from "@/../public/assets/boldArrow.svg"
 import Image from 'next/image'
 export default function Hero() {
   return (
@@ -16,7 +16,7 @@ export default function Hero() {
             </p>
             <Image
             className="my-auto pt-1 ml-[10px]" 
-            src="assets/boldArrow.svg"
+            src={boldArrow}
             width={20}
             height={10}
             alt="arrow"

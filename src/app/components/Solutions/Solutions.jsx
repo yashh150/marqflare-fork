@@ -7,24 +7,28 @@ const SolutionsArray = [
     desc: "Reinvent your Brand. Strategy to lead in the next decade",
     icon: "assets/brand.svg",
     iconDark: "assets/brandDark.svg",
+    link : "/solution/brand"
   },
   {
     title: "Media Solutions",
     desc: "Marketing for a multidimensional world.",
     icon: "assets/media.svg",
     iconDark: "assets/mediaDark.svg",
+    link : "/solution/media"
   },
   {
     title: "Data Solutions",
     desc: "Unlock powerful insights by tapping into data you didn't even know you had.",
     icon: "assets/data.svg",
     iconDark: "assets/dataDark.svg",
+    link : "/solution/data"
   },
   {
     title: "Tech Solutions",
     desc: "Emerging tech shapes the future",
     icon: "assets/tech.svg",
     iconDark: "assets/techDark.svg",
+    link : "/solution/tech"
   },
 ];
 
