@@ -1,5 +1,46 @@
 import Image from "next/image"
 import mediaHero from "@/../public/assets/mediaHero.svg"
+import MainSolutionCard from "@/app/components/SolutionCard/MainSolutionCard"
+const solnArray = [
+  {
+    title : "Media Colabs \n& Stretegy",
+    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    imgLight : "../assets/colabLight.svg" , 
+    imgDark : "../assets/colabDark.svg"
+  },
+  {
+    title : "Performance \nMarketing",
+    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    imgLight : "../assets/performLight.svg" , 
+    imgDark : "../assets/performDark.svg"
+  },
+  {
+    title : "Marq-Tech \nfor Media",
+    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    imgLight : "../assets/marqtechLight.svg" , 
+    imgDark : "../assets/marqtechDark.svg"
+  },
+  {
+    title : "Influencer \nMarketing",
+    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    imgLight : "../assets/smsLight.svg" , 
+    imgDark : "../assets/smsDark.svg"
+  },
+  {
+    title : "Programmatic \nSolutions",
+    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    imgLight : "../assets/terminalLight.svg" , 
+    imgDark : "../assets/terminalDark.svg"
+  },
+  {
+    title : "Affiliate \nMarketing",
+    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    imgLight : "../assets/rampLight.svg" , 
+    imgDark : "../assets/rampDark.svg"
+  },
+
+
+]
 
 export default function page() {
   return (
@@ -20,6 +61,27 @@ export default function page() {
          <br/>
           creation and integrated flagship campaigns.
       </p>
+      <div className="flex flex-col max-w-[1200px] m-auto">
+      <div className="flex flex-row">
+
+      {
+        solnArray.map((soln , index)=>
+           { if(index<3)
+            return(<MainSolutionCard key={index} soln={soln}/>)}
+        )
+      }
+      </div>
+      <div className="flex flex-row justify-around">
+
+      {
+        solnArray.map((soln , index)=>
+           { if(index>=3 && index<6)
+            return(<MainSolutionCard key={index} soln={soln}/>)}
+        )
+      }
+      </div>
+     
+      </div>
 
     </div>
   )

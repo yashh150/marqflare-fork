@@ -5,10 +5,6 @@ import Link from "next/link";
 import { useRouter } from "next/navigation";
 import { useState } from "react";
 import Logo from "@/../public/assets/logo.svg"
-import sendArrow from "@/../public/assets/sendArrow.svg"
-import email from "@/../public/assets/email.svg"
-import navLogo from "@/../public/assets/marqBlue.svg"
-import phone from "@/../public/assets/phone.svg"
 
 import "./Navstyle.css";
 const Navlinks = [

@@ -1,0 +1,10 @@
+<svg width="140" height="141" viewBox="0 0 140 141" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="diamond">
+<mask id="mask0_506_4265" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="140" height="141">
+<rect id="Bounding box" y="0.5" width="140" height="140" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_506_4265)">
+<path id="diamond_2" d="M70 118.4L15.1448 52.5508L30.9619 20.9167H109.038L124.855 52.5508L70 118.4ZM51.4339 50.0833H88.566L76.8994 26.75H63.1006L51.4339 50.0833ZM67.0833 105.847V55.9167H25.6214L67.0833 105.847ZM72.9166 105.847L114.379 55.9167H72.9166V105.847ZM95.0381 50.0833H117.004L105.337 26.75H83.3714L95.0381 50.0833ZM22.9964 50.0833H44.9619L56.6285 26.75H34.6631L22.9964 50.0833Z" fill="#888F77"/>
+</g>
+</g>
+</svg>
