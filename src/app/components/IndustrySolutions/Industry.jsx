@@ -5,35 +5,43 @@ import IndustryCard from './IndustryCard'
 const IndustryCards = [
   {
     title : "Politics",
-    icon : "assets/politcs.svg"
+    icon : "assets/politcs.svg",
+    link: "industry/politics"
   },
 {
   title:"Ed Tech",
-  icon : "assets/edtech.svg"
+  icon : "assets/edtech.svg",
+  link: "industry/edtech"
 },
 {
   title:"Healthcare",
-  icon : "assets/health.svg"
+  icon : "assets/health.svg",
+  link: "industry/healthcare"
 },
 {
   title:"Ecommerce",
-  icon : "assets/ecomm.svg"
+  icon : "assets/ecomm.svg",
+  link: "industry/ecommerce"
 },
 {
   title:"Fintech",
-  icon : "assets/fintech.svg"
+  icon : "assets/fintech.svg",
+  link: "industry/fintech"
 },
 {
   title:"Media",
-  icon : "assets/tv.svg"
+  icon : "assets/tv.svg",
+  link: "industry/media"
 },
 {
   title:"Gaming",
-  icon : "assets/game.svg"
+  icon : "assets/game.svg",
+  link: "industry/gaming"
 },
 {
   title:"Real Estate",
-  icon : "assets/house.svg"
+  icon : "assets/house.svg",
+  link: "industry/"
 },
 ]
 

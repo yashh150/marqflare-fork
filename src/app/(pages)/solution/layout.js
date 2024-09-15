@@ -1,14 +1,11 @@
-import Navbar from "../../components/Navbar/Navbar"
-import Form from "../../components/ContactForm/Form"
-import Footer from "../../components/Footer/Footer";
+
 import boldArrow from "@/../public/assets/boldArrow.svg"
 import Image from "next/image";
 export default function RootLayout({ children }) {
 
   return (
-    <html lang="en">
-      <body >
-        <Navbar/>
+      <>
+        
         {children}
         <p className='md:w-1/2  w-3/4 mx-auto mt-[120px] mb-[40px] text-center text-[#464b37] text-sm font-normal leading-normal'>
         Our team of strategists, designers, video editors, and animators offers comprehensive solutions
@@ -35,9 +32,7 @@ export default function RootLayout({ children }) {
             </div>
            
         </button>
-        <Form/>
-        <Footer/>
-        </body>
-    </html>
+        
+        </>
   );
 }

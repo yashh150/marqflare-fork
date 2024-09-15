@@ -1,5 +1,6 @@
 import boldArrow from "@/../public/assets/boldArrow.svg"
 import Image from 'next/image'
+import StickyLottie from "./Lottie"
 export default function Hero() {
   return (
     <div className='mt-[83px] w-full flex-col transition-all duration-500'>
@@ -23,15 +24,13 @@ export default function Hero() {
           ></Image>
            
         </button>
-        <Image 
-      className='mt-[30px] w-[80%] mx-auto '
-      src="assets/specs.svg"
-      width={90}
-      height={40}
-      alt="logo"> 
-    
-      </Image>
-      <div className=' flex flex-col relative top-[-50px] w-3/4 m-auto'>
+        <div className="h-[4000px]">
+
+        <StickyLottie/>
+
+
+        </div>
+      <div className=' flex flex-col  w-3/4 m-auto'>
         <p className='text-center text-primary md:text-[48px] sm:text-xl  font-semibold leading-[60px]'>
         360* Value
         </p>
