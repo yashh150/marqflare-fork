@@ -5,7 +5,7 @@ import IndustryCard from './IndustryCard'
 const IndustryCards = [
   {
     title : "Politics",
-    icon : "assets/politcs.svg",
+    icon : "assets/politics.svg",
     link: "industry/politics"
   },
 {

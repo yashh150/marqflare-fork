@@ -146,7 +146,7 @@ export default function FooterMoible() {
                 <div className="flex flex-col justify-start">
                     {
                         SolutionArray.map((solution , index) =>
-                            <Link key={index} className="text-[#001254] text-sm font-normal mt-[2px]" href={solution.link}>{solution.title}</Link>
+                            <Link key={index} className="text-[#2e3224] text-sm font-normal mt-[2px]" href={solution.link}>{solution.title}</Link>
 
                         )
                     }
@@ -156,7 +156,7 @@ export default function FooterMoible() {
                 <div className="flex flex-col justify-start">
                     {
                         DomainArray.map((solution , index) =>
-                            <Link key={index} className="text-[#001254] text-sm font-normal mt-[2px]" href={solution.link}>{solution.title}</Link>
+                            <Link key={index} className="text-[#2e3224] text-sm font-normal mt-[2px]" href={solution.link}>{solution.title}</Link>
 
                         )
                     }
@@ -165,7 +165,7 @@ export default function FooterMoible() {
             <div className="flex flex-col justify-start">
                     {
                         serviceArray.map((solution , index) =>
-                            <Link key={index} className="text-[#001254] text-sm font-normal mt-[2px]" href={solution.link}>{solution.title}</Link>
+                            <Link key={index} className="text-[#2e3224] text-sm font-normal mt-[2px]" href={solution.link}>{solution.title}</Link>
 
                         )
                     }
@@ -176,7 +176,7 @@ export default function FooterMoible() {
                 <div className="flex flex-col jjustify-start">
                     {
                         aboutArray.map((solution , index) => 
-                            <Link key={index} className="text-[#001254] text-sm font-normal mt-[2px]" href={solution.link}>{solution.title}</Link>
+                            <Link key={index} className="text-[#2e3224] text-sm font-normal mt-[2px]" href={solution.link}>{solution.title}</Link>
 
                         )
                     }
@@ -185,7 +185,7 @@ export default function FooterMoible() {
             <div className="flex flex-col justify-start">
                     {
                         socialArray.map((solution , index) =>
-                            <Link key={index} className="text-[#001254] text-sm font-normal mt-[2px]" href={solution.link}>{solution.title}</Link>
+                            <Link key={index} className="text-[#2e3224] text-sm font-normal mt-[2px]" href={solution.link}>{solution.title}</Link>
 
                         )
                     }
@@ -206,7 +206,7 @@ export default function FooterMoible() {
                 <div className="flex flex-col justify-start ">
                     {
                         SolutionArray.map((solution , index) =>
-                            <Link key={index} className="text-[#001254] text-sm font-normal " href={solution.link}>{solution.title}</Link>
+                            <Link key={index} className="text-[#2e3224] text-sm font-normal " href={solution.link}>{solution.title}</Link>
 
                         )
                     }
@@ -217,7 +217,7 @@ export default function FooterMoible() {
             <div className="flex flex-col justify-around">
                     {
                         DomainArray.map((solution , index) =>
-                            <Link key={index} className="text-[#001254] text-sm font-normal" href={solution.link}>{solution.title}</Link>
+                            <Link key={index} className="text-[#2e3224] text-sm font-normal" href={solution.link}>{solution.title}</Link>
 
                         )
                     }
@@ -226,7 +226,7 @@ export default function FooterMoible() {
             <div className="flex flex-col justify-around">
                     {
                         serviceArray.map((solution , index) =>
-                            <Link key={index} className="text-[#001254] text-sm font-normal" href={solution.link}>{solution.title}</Link>
+                            <Link key={index} className="text-[#2e3224] text-sm font-normal" href={solution.link}>{solution.title}</Link>
 
                         )
                     }
@@ -237,7 +237,7 @@ export default function FooterMoible() {
             <div className="flex flex-col justify-around">
                     {
                         aboutArray.map((solution , index) =>
-                            <Link key={index} className="text-[#001254] text-sm font-normal" href={solution.link}>{solution.title}</Link>
+                            <Link key={index} className="text-[#2e3224] text-sm font-normal" href={solution.link}>{solution.title}</Link>
 
                         )
                     }
@@ -246,7 +246,7 @@ export default function FooterMoible() {
             <div className="flex flex-col justify-around">
                     {
                         socialArray.map((solution , index) =>
-                            <Link key={index} className="text-[#001254] text-sm font-normal" href={solution.link}>{solution.title}</Link>
+                            <Link key={index} className="text-[#2e3224] text-sm font-normal" href={solution.link}>{solution.title}</Link>
 
                         )
                     }

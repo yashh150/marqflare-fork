@@ -24,7 +24,7 @@ export default function Hero() {
           ></Image>
            
         </button>
-        <div className="h-[4000px]">
+        <div className="h-[4000px] ">
 
         <StickyLottie/>
 
