@@ -1,6 +1,7 @@
+"use client"
 import boldArrow from "@/../public/assets/boldArrow.svg"
 import Image from 'next/image'
-import StickyLottie from "./Lottie"
+import ScrollAnimation from "./Rive"
 export default function Hero() {
   return (
     <div className='mt-[83px] w-full flex-col transition-all duration-500'>
@@ -24,12 +25,8 @@ export default function Hero() {
           ></Image>
            
         </button>
-        <div className="h-[4000px] ">
 
-        <StickyLottie/>
-
-
-        </div>
+        <ScrollAnimation/>
       <div className=' flex flex-col  w-3/4 m-auto'>
         <p className='text-center text-primary md:text-[48px] sm:text-xl  font-semibold leading-[60px]'>
         360* Value

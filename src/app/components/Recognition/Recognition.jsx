@@ -22,7 +22,7 @@ Learn what Marqflare Solutions can do for you
             if(index>=6)
             return (
             <Image
-            className="mx-4 mt-10 hover:scale-110 transition-all duration-150"
+            className="mx-4 mt-10  transition-all duration-150"
             key={index}
             src={logo.src}
             width={logo.width}

@@ -1,6 +1,61 @@
-.gradient-border {
-    background: linear-gradient(180deg ,#7A7D70, #363928);
-    border-radius: 20px; /* Optional: For rounded borders */
-    
-    display: inline-block;
+/**
+ * `@property` is required for the animation to work.
+ * Without it, the angle values won’t interpolate properly.
+ *
+ * @see https://dev.to/afif/we-can-finally-animate-css-gradient-kdk
+ */
+ @property --bg-angle {
+  inherits: false;
+  initial-value: 0deg;
+  syntax: "<angle>";
+}
+
+/**
+ * To animate the gradient, we set the custom property to 1 full
+ * rotation. The animation starts at the default value of `0deg`.
+ */
+@keyframes spin {
+  to {
+    --bg-angle: 360deg;
   }
+}
+
+
+article {
+  height : 305px;
+  /* add the animation, but pause it by default */
+  animation: spin 2.5s infinite linear paused;
+  
+  /**
+   * Using `background-origin` we can create a “border” using two gradients. And to
+   * make the gradients better-looking, we use OKLCH.
+   *
+   * @see https://developer.mozilla.org/en-US/docs/Web/CSS/background-origin
+   * @see https://evilmartians.com/chronicles/oklch-in-css-why-quit-rgb-hsl
+   */
+  background:
+    /* Background colors don’t work with `background-origin`, so use a gradient. */
+    linear-gradient(
+        to bottom,
+        oklch(48.32% 0.048 121.38),
+        oklch(48.32% 0.048 121.38)
+      )
+      padding-box, /* ends at inner border edges */
+    conic-gradient(
+        from var(--bg-angle) in oklch,
+        oklch(59.61% 0.053 119.44),
+        oklch(38.32% 0.048 121.38),
+        oklch(59.61% 0.053 119.44)
+      )
+      border-box; /* extends to outer border edges */
+  
+  /* a clear border lets the background gradient shine through */
+  border: 3px solid transparent;
+
+  /* unpause the animation on hover */
+  &:hover {
+    animation-play-state: running;
+  }
+  border-radius: 20px;
+}
+
