@@ -1,8 +1,9 @@
 "use client"
 import boldArrow from "@/../public/assets/boldArrow.svg"
 import Image from 'next/image'
-import ScrollAnimation from "./Rive"
+import StickyHero from "./StickyHero"
 export default function Hero() {
+
   return (
     <div className='mt-[83px] w-full flex-col transition-all duration-500'>
       <h1 className='max-w-[940px] w-full sm:text-[2.5rem] sm:leading-[3.75rem] sm:font-semibold text-[2rem] leading-[3rem] font-semibold text-[#2e3224] mx-auto text-center'>
@@ -26,8 +27,9 @@ export default function Hero() {
            
         </button>
 
-        <ScrollAnimation/>
-      <div className=' flex flex-col  w-3/4 m-auto'>
+<StickyHero/>
+      
+      <div className='mt-[-500vh] flex flex-col  w-3/4 mx-auto'>
         <p className='text-center text-primary md:text-[48px] sm:text-xl  font-semibold leading-[60px]'>
         360* Value
         </p>
