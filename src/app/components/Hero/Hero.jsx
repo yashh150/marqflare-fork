@@ -26,10 +26,12 @@ export default function Hero() {
           ></Image>
            
         </button>
+<div className="h-fit">
 
 <StickyHero/>
+</div>
       
-      <div className='mt-[-500vh] flex flex-col  w-3/4 mx-auto'>
+      <div className=' flex flex-col  w-3/4 mx-auto'>
         <p className='text-center text-primary md:text-[48px] sm:text-xl  font-semibold leading-[60px]'>
         360* Value
         </p>

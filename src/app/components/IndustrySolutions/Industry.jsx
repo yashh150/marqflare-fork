@@ -41,14 +41,14 @@ const IndustryCards = [
 {
   title:"Real Estate",
   icon : "assets/house.svg",
-  link: "industry/"
+  link: "/industry/realestate"
 },
 ]
 
 
 export default function Industry() {
   return (
-    <div className='pb-[185px] pt-[82px] bg-gradient-to-b from-[#464b37] to-[#212319] flex flex-col'>
+    <div id="industries" className='pb-[185px] pt-[82px] bg-gradient-to-b from-[#464b37] to-[#212319] flex flex-col'>
       <div className="flex flex-col">
 
       <h1 className='text-center mt-10 text-[#e8ecdf] text-3xl md:text-[3rem] font-semibold leading-[60px]'> 

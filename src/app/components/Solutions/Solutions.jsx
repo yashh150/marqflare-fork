@@ -34,7 +34,7 @@ const SolutionsArray = [
 
 export default function Solutions() {
   return (
-    <div>
+    <div id="solutions">
       <p className="w-[90%] mx-auto text-center text-[#2e3224] text-5xl font-medium leading-normal">
         Learn what Marqflare Solutions can do for you
       </p>

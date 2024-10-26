@@ -10,7 +10,7 @@ export default function page() {
                 <br />to enhance your online presence and meet your business objectives through ongoing content
                 <br />creation and integrated flagship campaigns.
             </p>
-                    <div className='flex flex-col w-[90%] mx-auto'>
+                    <div className='flex flex-col'>
                             <span className='flex flex-col sm:flex-row w-[85%] mx-auto justify-around'>
                                 <Card/>
                                 <Card/>

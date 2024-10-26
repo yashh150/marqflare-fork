@@ -10,23 +10,23 @@ import "./Navstyle.css";
 const Navlinks = [
   {
     title: "Solutions",
-    href: "/solutions",
+    href: "#solutions",
   },
   {
     title: "Industries",
-    href: "/industries",
+    href: "#industries",
   },
   {
     title: "Customers",
-    href: "/customers",
+    href: "#customers",
   },
   {
     title: "Learning",
-    href: "/learning",
+    href: "/blogs",
   },
   {
     title: "Contact Us",
-    href: "/contact",
+    href: "#contact",
   },
 ];
 

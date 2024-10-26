@@ -4,54 +4,54 @@ import navLogo from "@/../public/assets/marqBlue.svg"
 const SolutionArray = [
     {
         title : "Brand Solution",
-        link : "/brand"
+        link : "/solution/brand"
     },
     {
         title : "Media Solution",
-        link : "/brand"
+        link : "/solution/media"
     },
     {
         title : "Data Solution",
-        link : "/brand"
+        link : "/solution/data"
     },
     {
         title : "Tech Solution",
-        link : "/brand"
+        link : "/solution/tech"
     },
 ];
 
 const DomainArray = [
     {
       title : "Politics",
-      link : "/politics"
+      link : "industry/politics"
     },
   {
     title:"Ed Tech",
-    link : "/politics"
+    link : "/industry/edtech"
   },
   {
     title:"Healthcare",
-    link : "/politics"
+    link : "/industry/healthcare"
   },
   {
     title:"Ecommerce",
-    link : "/politics"
+    link : "/industry/ecommerce"
   },
   {
     title:"Fintech",
-    link : "/politics"
+    link : "/industry/fintech"
   },
   {
     title:"Media",
-    link : "/politics"
+    link : "/industry/media"
   },
   {
     title:"Gaming",
-    link : "/politics"
+    link : "/industry/gaming"
   },
   {
     title:"Real Estate",
-    link : "/politics"
+    link : "/industry/realestate"
   },
   ];
 
@@ -66,11 +66,11 @@ const DomainArray = [
     },
     {
         title : "Blogs",
-        link : "/workshop"
+        link : "/blogs"
     },
     {
         title : "Case Studies",
-        link : "/workshop"
+        link : "/case"
     },
     {
         title : "Testimonials",
@@ -96,12 +96,8 @@ const DomainArray = [
     },
     {
         title : "Career",
-        link : "/"
-    },
-    {
-        title : "",
-        link : "/"
-    },
+        link : "/career"
+    }
     
   ];
 

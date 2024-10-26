@@ -12,13 +12,13 @@ export default function Home() {
     <body >
 <Navbar/>
 <Hero/>
-<Solutions/>
-<Industry/>
+<Solutions id="solutions"/>
+<Industry id="industries"/>
 <Whatsnew/>
 <Trust/>
-<Recognition/>
-<Form/>
-<Footer/>
+<Recognition id="customers"/>
+<Form id="contact"/>
+<Footer />
     </body>
   );
 }
