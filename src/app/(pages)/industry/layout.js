@@ -1,7 +1,7 @@
 import React from "react";
 import Button from './Button'
 import Image from "next/image";
-
+import TabbedNav from "./TabbedNav";
 const ButtonArray = [
     {
         title : "Measurement"
@@ -52,7 +52,12 @@ export default function layout({children}) {
 
       </span>
 
-
+<TabbedNav/>
+<p className='md:w-1/2  w-3/4 mx-auto mt-[30px] mb-[40px] text-center text-[#464b37] text-sm font-normal leading-normal'>
+      Discover our solutions for every team. Enhance the customer experience through advanced 
+      <br/>personalization at every touchpoint in their journey, leveraging data-driven insights to build and 
+      <br/>sustain robust customer relationships
+      </p>
      
     </div>
   )
