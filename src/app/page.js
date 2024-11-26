@@ -12,12 +12,12 @@ export default function Home() {
     <body >
 <Navbar/>
 <Hero/>
-<Solutions id="solutions"/>
-<Industry id="industries"/>
+<Solutions />
+<Industry />
 <Whatsnew/>
 <Trust/>
-<Recognition id="customers"/>
-<Form id="contact"/>
+<Recognition />
+<Form />
 <Footer />
     </body>
   );
