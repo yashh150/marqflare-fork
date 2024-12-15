@@ -12,18 +12,19 @@ const StickyHero = () => {
       renderer: 'svg',
       loop: false,
       autoplay: false, // We don't want the animation to auto-play, we will control it with scroll
-      animationData: require('../../../../public/assets/Hero.json'), // Path to your Lottie JSON file
+      animationData: require('../../../../public/assets/Hero_1.json'), // Path to your Lottie JSON file
     });
 
     // Clean up on unmount
     return () => {
       if (lottieAnimation.current) {
         lottieAnimation.current.destroy();
-      }
-    };
+      } 
+    };         
   }, []);
 
   useEffect(() => {
+    lottieAnimation.current.goToAndStop(1);
     const handleScroll = () => {
       // Get the scroll position relative to the section containing the Lottie animation
       const scrollPosition = window.scrollY;
@@ -39,7 +40,12 @@ const StickyHero = () => {
       const currentFrame = Math.floor(scrollPercentage * totalFrames);
 
       // Set the animation to the current frame
+      if(currentFrame < totalFrames)
       lottieAnimation.current.goToAndStop(currentFrame, true);
+      else
+      lottieAnimation.current.goToAndStop(1170 , true)
+     
+
     };
 
     // Add scroll event listener
@@ -60,7 +66,7 @@ const StickyHero = () => {
           position: 'sticky',
           top: '0vh',
         }}
-        className='ml-[5rem] mt-[-150px]'
+        className='ml-[5rem] mt-[-150px] border-0 shadow-0'
       />
     </div>
   );

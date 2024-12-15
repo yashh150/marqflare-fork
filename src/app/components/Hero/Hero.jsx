@@ -2,6 +2,7 @@
 import boldArrow from "@/../public/assets/boldArrow.svg"
 import Image from 'next/image'
 import StickyHero from "./StickyHero"
+import astronaut from "@/../public/assets/astronaut.svg"
 export default function Hero() {
 
   return (
@@ -26,12 +27,23 @@ export default function Hero() {
           ></Image>
            
         </button>
-<div className="h-fit">
+<div className="h-fit z-0 hidden md:block">
 
 <StickyHero/>
 </div>
+<div className="h-fit z-0 md:hidden my-20">
+
+<Image
+            src={astronaut}
+            width={250}
+            height={100}
+            alt="arrow"
+            className="mx-auto "
+          />
+</div>
+
       
-      <div className=' flex flex-col  w-3/4 mx-auto'>
+      <div className=' flex flex-col md:mt-[-100px] relative z-10 w-3/4 mx-auto'>
         <p className='text-center text-primary md:text-[48px] sm:text-xl  font-semibold leading-[60px]'>
         360* Value
         </p>

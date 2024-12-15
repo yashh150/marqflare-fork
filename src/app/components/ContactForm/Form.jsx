@@ -122,7 +122,7 @@ export default function Form() {
   </div>
  
 
-<div className='pb-20 pr-20 pt-10 md:w-[45%] h-[350px]'>
+<div className='p-20 md:pt-20 pt-0 md:w-[45%] h-[350px]'>
   <Map/>
 </div>
 </div>

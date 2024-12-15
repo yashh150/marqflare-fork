@@ -80,19 +80,19 @@ const DomainArray = [
   const aboutArray = [
     {
         title : "About Us",
-        link : "/"
+        link : "/about"
     },
     {
         title : "Leadership",
-        link : "/"
+        link : "/about"
     },
     {
         title : "Awards",
-        link : "/"
+        link : "/about"
     },
     {
         title : "Media",
-        link : "/"
+        link : "/about"
     },
     {
         title : "Career",
