@@ -11,7 +11,7 @@ const StickyHero = () => {
       container: lottieContainer.current,
       renderer: 'svg',
       loop: false,
-      autoplay: false, // We don't want the animation to auto-play, we will control it with scroll
+      autoplay: true, // We don't want the animation to auto-play, we will control it with scroll
       animationData: require('../../../../public/assets/Hero_1.json'), // Path to your Lottie JSON file
     });
 
@@ -24,7 +24,7 @@ const StickyHero = () => {
   }, []);
 
   useEffect(() => {
-    lottieAnimation.current.goToAndStop(1);
+    // lottieAnimation.current.goToAndStop(1);
     const handleScroll = () => {
       // Get the scroll position relative to the section containing the Lottie animation
       const scrollPosition = window.scrollY;
