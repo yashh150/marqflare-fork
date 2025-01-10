@@ -12,7 +12,7 @@ const StickyHero = () => {
       renderer: 'svg',
       loop: false,
       autoplay: true, // We don't want the animation to auto-play, we will control it with scroll
-      animationData: require('../../../../public/assets/Hero_1.json'), // Path to your Lottie JSON file
+      animationData: require('../../../../public/assets/finalHero.json'), // Path to your Lottie JSON file
     });
 
     // Clean up on unmount
@@ -31,7 +31,7 @@ const StickyHero = () => {
       const maxScrollHeight = document.documentElement.scrollHeight - window.innerHeight;
 
       // Calculate the scroll percentage (0 to 1)
-      const scrollPercentage = 2*scrollPosition / maxScrollHeight;
+      const scrollPercentage = scrollPosition / maxScrollHeight;
 
       // Get the total number of frames in the Lottie animation
       const totalFrames = lottieAnimation.current.totalFrames;
@@ -58,7 +58,7 @@ const StickyHero = () => {
   }, []);
 
   return (
-    <div style={{ height: '1300vh' }}>
+    <div className='h-[850vh]'>
       <div
         ref={lottieContainer}
         style={{

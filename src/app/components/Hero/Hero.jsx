@@ -43,16 +43,7 @@ export default function Hero() {
 </div>
 
       
-      <div className=' flex flex-col md:mt-[-100px] relative z-10 w-3/4 mx-auto'>
-        <p className='text-center text-primary md:text-[48px] sm:text-xl  font-semibold leading-[60px]'>
-        360* Value
-        </p>
-        <p className='font-[400] sm:mt-12 w-1/2 mx-auto text-center text-secondary text-sm md:text-lg  leading-normal mt-[15px]'>
-        Everyday, we embrace transformation and generate value for 
-        <br/>
-        all stakeholders across the globe.
-        </p>
-      </div>
+      
     </div>
   )
 }
