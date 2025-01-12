@@ -1,6 +1,7 @@
-import { LogoArray } from "../../../../public/assets/LogoIndex"
+import { LogoArray2 } from "../../../../public/assets/LogoIndex"
 import Image from "next/image"
 export default function Recognition() {
+  console.log(LogoArray2)
   return (
     <div id="customers" className='pb-10 pt-[60px] flex flex-col bg-gradient-to-br from-[#464b37] to-[#212319]'>
       <div className="flex flex-col">
@@ -9,15 +10,14 @@ export default function Recognition() {
 Industry recognition
 </h1>
 <p className='md:w-1/2  w-3/4 m-auto text-center text-[#e8ecdf] text-sm font-norma leading-normal'>
-Everyday, we embrace transformation and generate value for all stakeholders across the globe.
-Learn what Marqflare Solutions can do for you
+We are proud of our industry recognition, reflecting our commitment to innovation, excellence, and <br/>delivering exceptional, results-driven solutions.
 
 </p>
 </div>
 <div className="flex flex-row justify-around flex-wrap p-5 w-[80%] m-auto">
 
       {
-        LogoArray.map((logo , index)=>
+        LogoArray2.map((logo , index)=>
         {
             if(index>=6)
             return (

@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import navLogo from "@/../public/assets/marqBlue.svg"
+import navLogo from "@/../public/assets/logo.svg"
 const SolutionArray = [
     {
         title : "Brand Solution",
@@ -56,14 +56,7 @@ const DomainArray = [
   ];
 
   const serviceArray = [
-    {
-        title : "Workshop",
-        link : "/workshop"
-    },
-    {
-        title : "Videos",
-        link : "/workshop"
-    },
+    
     {
         title : "Blogs",
         link : "/blogs"
@@ -130,11 +123,11 @@ const DomainArray = [
 
 export default function FooterMoible() {
   return (
-    <div className="bg-[#d2d8c5] pt-[320px] pb-[77px] md:px-20 " >
-        <div className="hidden sm:flex flex-row justify-around max-w-[1400px] m-auto">
+    <div className="bg-[#d2d8c5]  pt-[320px] pb-[77px] md:px-20 " >
+        <div className="hidden sm:flex flex-row justify-around w-[90%] m-auto max-w-[1400px]">
         <Image
                 src={navLogo}
-                width={150}
+                width={170}
                 height={200}
                 alt="logo"
                 className="mt-[-110px]"

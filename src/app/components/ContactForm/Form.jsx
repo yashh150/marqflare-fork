@@ -28,21 +28,19 @@ export default function Form() {
   return (
     <div id="contact" className='bg-white h-[350px] z-10 mb-20'>
       <div className="w-[80%] m-auto  bg-white rounded-[20px] shadow-lg border relative top-[115px] pb-[10px] max-w-[1200px]">
-      <h1 className="w-[90%] mt-[47px] mx-auto text-center text-primary text-3xl md:text-[3rem] font-semibold leading-normal">Want to Say Hello!</h1>
-      <p className='md:w-1/2  w-3/4 max-w-[400px] m-auto text-center text-[#464b37] text-sm font-normal leading-normal'>
-      Learn how Marqflare can help you succeed.
-      <br/>
-       Talk to one of our experts today!
+      <h1 className="w-[90%] mt-[47px] mx-auto text-center text-primary text-3xl md:text-[3rem] font-semibold leading-normal">Let's make it happen!</h1>
+      <p className='m-auto text-center text-[#464b37] text-sm font-normal leading-normal'>
+      Discover how Marqflare can help you achieve success. Fill out the form <br/>to speak with one of our experts today!
 
 </p>
 <div className="flex flex-col md:flex-row">
   <div className="flex flex-col mx-auto my-5">
-    <div className="flex flex-row  mt-[40px] justify-between">
+    <div className="flex md:flex-row flex-col  mt-[40px] justify-between">
 
   <TextField id="standard-basic" label="Name" variant="standard" className='w-56 inline' required/>
   <TextField id="standard-basic" label="Phone Number" variant="standard" className='w-56 inline ' required/>
     </div>
-    <div className="flex flex-row  mt-[40px] justify-between">
+    <div className="flex md:flex-row flex-col mt-[40px] justify-between">
 
   <TextField id="standard-basic" label="Email" variant="standard" className='w-56 inline'/>
   <div>

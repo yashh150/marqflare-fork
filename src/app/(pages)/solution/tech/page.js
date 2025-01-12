@@ -4,37 +4,37 @@ import MainSolutionCard from "@/app/components/SolutionCard/MainSolutionCard"
 const solnArray = [
   {
     title : "Custom Web \nDevelopment",
-    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    desc : "Develop custom websites with \nresponsive design, optimized \nperformance, and seamless \nfunctionality to improve user \nengagement and business growth.", 
     imgLight : "../assets/developerLight.svg" , 
     imgDark : "../assets/developerDark.svg"
   },
   {
     title : "Website \nPersonalisation",
-    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    desc : "Optimize user engagement by \ndelivering personalized website \nexperiences, driving higher \nretention, conversions, and \nincreasing overall customer \nsatisfaction and loyalty.", 
     imgLight : "../assets/websiteLight.svg" , 
     imgDark : "../assets/websiteDark.svg"
   },
   {
     title : "UI/UX Design \n& Research",
-    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    desc : "Improve user journeys with data-\ndriven UI/UX design research, \noptimizing interface elements for \nbetter functionality and higher \nuser retention.", 
     imgLight : "../assets/designLight.svg" , 
     imgDark : "../assets/designDark.svg"
   },
   {
     title : "Search Engine \nOptimisation",
-    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    desc : "Boost organic traffic by optimizing \nwebsite content, improving search \nengine rankings, and driving \nconversions through targeted SEO \nstrategies.", 
     imgLight : "../assets/developerLight.svg" , 
     imgDark : "../assets/developerDark.svg"
   },
   {
     title : "Email \nMarketing",
-    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    desc : "Drive sales growth by creating \npersonalized email marketing \ncampaigns that boost customer \nretention, engagement, and \nimprove click-through rates.", 
     imgLight : "../assets/notificationLight.svg" , 
     imgDark : "../assets/notificationDark.svg"
   },
   {
     title : "Marketing \nAutomation",
-    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    desc : "Maximize marketing impact by \nautomating key workflows, \nimproving customer segmentation, and driving measurable results through data-driven campaigns.", 
     imgLight : "../assets/adjustLight.svg" , 
     imgDark : "../assets/adjustDark.svg"
   },

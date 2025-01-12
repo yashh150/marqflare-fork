@@ -24,10 +24,10 @@ const Navlinks = [
     title: "Learning",
     href: "/blogs",
   },
-  {
-    title: "Contact Us",
-    href: "#contact",
-  },
+  // {
+  //   title: "Contact Us",
+  //   href: "#contact",
+  // },
 ];
 
 export default function Navbar() {
@@ -41,12 +41,12 @@ export default function Navbar() {
     router.push("/");
   };
   return (
-    <div className="w-full flex flex-col  md:flex-row justify-between transition-all duration-200 px-16">
+    <div className="w-[93%] mx-auto flex flex-col  md:flex-row justify-between transition-all duration-200 px-16">
       <div className="flex flex-row justify-between my-[40px] md:w-auto mx-[8%] cursor-pointer">
         <Image
           className="sm:hidden"
           src={Logo}
-          width={110}
+          width={140}
           height={50}
           alt="logo"
           onClick={toHome}
@@ -55,7 +55,7 @@ export default function Navbar() {
           <Image
             className="hidden sm:flex m-auto"
             src={Logo}
-            width={110}
+            width={140}
             height={50}
             alt="logo"
             onClick={toHome}
@@ -117,7 +117,7 @@ export default function Navbar() {
         </button>
       </span>
       <span
-        className={`hidden max-w-[579px] m-auto sm:flex w-full justify-around transition-all duration-300`}
+        className={`hidden max-w-[500px] m-auto sm:flex w-full justify-around transition-all duration-300`}
       >
         {Navlinks.map((link, index) => (
           <Link

@@ -4,58 +4,41 @@ import MainSolutionCard from "@/app/components/SolutionCard/MainSolutionCard"
 const solnArray = [
   {
     title : "Data Collection \nand Integration",
-    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    desc : "Gather, integrate, and organize \ndiverse data streams, enhancing \nbusiness intelligence and \nproviding a unified view for \nstrategic planning.", 
     imgLight : "../assets/databaseLight.svg" , 
     imgDark : "../assets/databaseDark.svg"
   },
   {
-    title : "Data Storage and \nManagement",
-    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    title : "Data Processing",
+    desc : "Convert raw data into structured, \nusable formats, enhancing \nbusiness intelligence, data \naccuracy, and supporting strategic \nplanning across departments.", 
     imgLight : "../assets/mitreLight.svg" , 
     imgDark : "../assets/mitreDark.svg"
   },
   {
-    title : "Data Processing \n& Transformation",
-    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    title : "Data \nTransformation",
+    desc : "Streamline data processes by \ntransforming raw information into \nstructured formats, improving \naccuracy, accessibility, and \ndecision-making efficiency.", 
     imgLight : "../assets/donutLight.svg" , 
     imgDark : "../assets/donutDark.svg"
   },
   {
     title : "Data Analysis \nand Exploration",
-    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    desc : "Explore large datasets to identify \nkey trends, opportunities, and \nactionable insights, enabling \nsmarter decision-making and \noperational efficiency.", 
     imgLight : "../assets/queryLight.svg" , 
     imgDark : "../assets/queryDark.svg"
   },
   {
     title : "Visualisation \nand Reporting",
-    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    desc : "Transform complex data into clear, \ninteractive visuals and reports, \ndriving informed decision-making \nand enhancing business strategy \nexecution.", 
     imgLight : "../assets/thresholdLight.svg" , 
     imgDark : "../assets/thresholdDark.svg"
   },
   {
-    title : "ML, RL & AI \nModel Creation",
-    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    title : "Observations \ninto Insights",
+    desc : "Unlock actionable data insights to \ndrive performance, improve \nstrategies, and maximize growth \nthrough in-depth analysis and \nexpert interpretation.", 
     imgLight : "../assets/brainLight.svg" , 
     imgDark : "../assets/brainDark.svg"
   },
-  {
-    title : "Data Governance \nand Compliance",
-    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
-    imgLight : "../assets/tenancyLight.svg" , 
-    imgDark : "../assets/tenancyDark.svg"
-  },
-  {
-    title : "Data Security \nand Privacy",
-    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
-    imgLight : "../assets/moderatorLight.svg" , 
-    imgDark : "../assets/moderatorDark.svg"
-  },
-  {
-    title : "Business \nIntel Support",
-    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
-    imgLight : "../assets/psychologyLight.svg" , 
-    imgDark : "../assets/psychologyDark.svg"
-  }
+  
 ]
 
 export default function page() {

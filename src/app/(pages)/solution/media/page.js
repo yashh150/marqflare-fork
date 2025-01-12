@@ -4,37 +4,37 @@ import MainSolutionCard from "@/app/components/SolutionCard/MainSolutionCard"
 const solnArray = [
   {
     title : "Media Colabs \n& Stretegy",
-    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    desc : "Maximize ROI by strategically \nplanning and buying media, \nensuring optimal ad placements, \naudience targeting, and increased \nbrand visibility.", 
     imgLight : "../assets/colabLight.svg" , 
     imgDark : "../assets/colabDark.svg"
   },
   {
     title : "Performance \nMarketing",
-    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    desc : "Achieve higher ROI through \nperformance-based marketing, \nleveraging data insights to \nenhance customer acquisition, \nretention, and overall campaign \nefficiency.", 
     imgLight : "../assets/performLight.svg" , 
     imgDark : "../assets/performDark.svg"
   },
   {
     title : "Marq-Tech \nfor Media",
-    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    desc : "Drive innovation with Marq Tech \nfor Media, optimizing content \ndistribution, increasing \nengagement, and ensuring \nseamless integration across all \nchannels.", 
     imgLight : "../assets/marqtechLight.svg" , 
     imgDark : "../assets/marqtechDark.svg"
   },
   {
     title : "Influencer \nMarketing",
-    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    desc : "Accelerate growth by partnering \nwith influential personalities to \nreach engaged audiences, \nincrease brand visibility, and drive \nmeasurable results.", 
     imgLight : "../assets/smsLight.svg" , 
     imgDark : "../assets/smsDark.svg"
   },
   {
     title : "Programmatic \nSolutions",
-    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    desc : "Drive higher engagement and \nconversions with automated, real-\ntime programmatic advertising, \ntargeting the right audience with \nprecision-driven campaigns.", 
     imgLight : "../assets/terminalLight.svg" , 
     imgDark : "../assets/terminalDark.svg"
   },
   {
     title : "Affiliate \nMarketing",
-    desc : "Our team of strategists, designers, \nvideo editors, and animators offers \ncomprehensive solutions to \nenhance your online presence and \nmeet your business.", 
+    desc : "Expand reach and revenue by \nengaging affiliate partners, \nimproving conversions, and driving \nsustainable traffic through \noptimized marketing efforts.", 
     imgLight : "../assets/rampLight.svg" , 
     imgDark : "../assets/rampDark.svg"
   },

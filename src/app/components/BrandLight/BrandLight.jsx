@@ -1,15 +1,15 @@
-import { LogoArray } from "../../../../public/assets/LogoIndex"
+import { LogoArrayDark } from "../../../../public/assets/LogoIndex"
 import Image from "next/image"
 
-export default function Brands() {
+export default function BrandLight() {
   return (
-    <div className="flex flex-col">
-      <h1 className='text-center w-3/4 mx-auto mb-3 mt-10 text-[#e8ecdf] text-3xl md:text-[2.8rem] leading-tight font-semibold'>
+    <div className="flex flex-col my-[80px] py-[90px] bg-[#d2d8c5]">
+      <h1 className='text-center w-3/4 mx-auto mb-3 mt-10 text-[#2e3224] text-3xl md:text-[2.8rem] leading-tight font-semibold'>
       Driving Success with <br>
       </br>
       Global Brand and Industry Titans
       </h1>
-      <p className='w-1/2 m-auto h-[11px] text-center text-[#e8ecdf] text-sm font-normal leading-[15px]'>
+      <p className='w-1/2 m-auto h-[11px] text-center text-[#2e3224] text-sm font-normal leading-[15px]'>
       We have been working with some Fortune 50+ clients
       </p>
   
@@ -18,7 +18,7 @@ export default function Brands() {
         <div className="flex flex-row justify-around mb-4 flex-wrap">
 
       {
-        LogoArray.map((logo , index)=>
+        LogoArrayDark.map((logo , index)=>
         {
             if(index<6)
             return (
@@ -39,7 +39,7 @@ export default function Brands() {
         <div className="flex flex-row justify-around flex-wrap">
 
       {
-        LogoArray.map((logo , index)=>
+        LogoArrayDark.map((logo , index)=>
         {
             if(index>=6)
             return (
