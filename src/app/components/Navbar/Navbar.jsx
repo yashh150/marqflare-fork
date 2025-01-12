@@ -11,20 +11,18 @@ import "./Navstyle.css";
 
 
 export default function Navbar() {
-  const locater = window.location.pathname == '/blogs' ? "#" : "/#"
-  console.log(locater)
   const Navlinks = [
     {
       title: "Solutions",
-      href: locater + "solutions",
+      href: "#solutions",
     },
     {
       title: "Industries",
-      href: locater + "industries",
+      href: "#industries",
     },
     {
       title: "Customers",
-      href: locater + "customers",
+      href: "#customers",
     },
     {
       title: "Learning",
