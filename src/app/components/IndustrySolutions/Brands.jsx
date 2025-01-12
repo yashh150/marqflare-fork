@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function Brands() {
   return (
-    <div className="flex flex-col">
+    <div id="customers" className="flex flex-col">
       <h1 className='text-center w-3/4 mx-auto mb-3 mt-10 text-[#e8ecdf] text-3xl md:text-[2.8rem] leading-tight font-semibold'>
       Driving Success with <br>
       </br>

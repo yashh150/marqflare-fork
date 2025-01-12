@@ -27,7 +27,7 @@ export default function Hero() {
           ></Image>
            
         </button>
-<div className="h-fit z-0 hidden md:block">
+<div className="h-[500vh]  z-0 hidden md:block">
 
 <StickyHero/>
 </div>

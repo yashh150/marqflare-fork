@@ -34,8 +34,8 @@ const SolutionsArray = [
 
 export default function Solutions() {
   return (
-    <div id="solutions">
-      <p className="w-[90%] mb-[50px] mx-auto text-center text-[#2e3224] text-5xl font-medium leading-normal">
+    <div id="solutions" className="md:relative md:top-[-300px]">
+      <p className=" w-[90%] mb-[50px] mx-auto text-center text-[#2e3224] text-5xl font-medium leading-normal">
       Learn what we can do for you
       </p>
       <div className="w-[90%] max-w-[1250px] mb-10 mx-auto flex flex-col sm:hidden md:flex md:flex-row justify-around">

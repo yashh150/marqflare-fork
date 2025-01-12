@@ -1,11 +1,14 @@
-<svg width="126" height="125" viewBox="0 0 126 125" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M101.414 63C101.414 84.2808 84.3827 101.5 63.4136 101.5C42.4445 101.5 25.4136 84.2808 25.4136 63C25.4136 41.7192 42.4445 24.5 63.4136 24.5C84.3827 24.5 101.414 41.7192 101.414 63Z" stroke="url(#paint0_linear_273_2197)" stroke-width="3"/>
-<circle cx="63.4134" cy="62.5" r="60" transform="rotate(90.9437 63.4134 62.5)" stroke="#E8ECDF" stroke-width="3"/>
-<circle cx="54.9087" cy="63" r="9" fill="#B9C0A9"/>
-<circle cx="72.4087" cy="42.5" r="9.5" fill="#B9C0A9"/>
-<circle cx="72.4087" cy="84" r="11" fill="#B9C0A9"/>
+<svg width="125" height="125" viewBox="0 0 125 125" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M101.5 63C101.5 84.2808 84.4691 101.5 63.5 101.5C42.5309 101.5 25.5 84.2808 25.5 63C25.5 41.7192 42.5309 24.5 63.5 24.5C84.4691 24.5 101.5 41.7192 101.5 63Z" stroke="url(#paint0_linear_1939_13)" stroke-width="3"/>
+<circle cx="62.5048" cy="62.5046" r="60" transform="rotate(90.9437 62.5048 62.5046)" stroke="#E8ECDF" stroke-width="3"/>
+<circle cx="52.9087" cy="62" r="9" fill="#B9C0A9"/>
+<circle cx="70.4087" cy="41.5" r="9.5" fill="#B9C0A9"/>
+<circle cx="70.4087" cy="83" r="11" fill="#B9C0A9"/>
+<path d="M27 62H55.5" stroke="#B9C0A9" stroke-width="3"/>
+<path d="M31.5 42H73" stroke="#B9C0A9" stroke-width="3"/>
+<path d="M31.5 83H73" stroke="#B9C0A9" stroke-width="3"/>
 <defs>
-<linearGradient id="paint0_linear_273_2197" x1="63.4136" y1="23" x2="63.4136" y2="103" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_1939_13" x1="63.5" y1="23" x2="63.5" y2="103" gradientUnits="userSpaceOnUse">
 <stop stop-color="#E8ECDF"/>
 <stop offset="1" stop-color="#D2D8C5"/>
 </linearGradient>

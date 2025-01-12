@@ -30,6 +30,8 @@ const Navlinks = [
   // },
 ];
 
+
+
 export default function Navbar() {
   const [open, setOpen] = useState(false);
   const handleToggle = () => {
@@ -37,6 +39,14 @@ export default function Navbar() {
   };
 
   const router = useRouter();
+   const talkToSales = () => {
+  // 
+  const contactElement = document.getElementById("contact");
+  if (contactElement) {
+    contactElement.scrollIntoView({ behavior: "smooth" });
+  }
+   }
+
   const toHome = () => {
     router.push("/");
   };
@@ -60,8 +70,8 @@ export default function Navbar() {
             alt="logo"
             onClick={toHome}
           ></Image>
-          <button className="sm:flex md:hidden hidden ml-56 mr-0 whitespace-nowrap border-2 border-secondary text-secondary my-[30px] px-[20px] py-[10px] rounded-full hover:bg-secondary hover:text-white transition-all duration-300 max-w-52">
-            <p className="text-center w-full m-auto">Talk To Sales</p>
+          <button onClick={talkToSales} className="sm:flex md:hidden hidden ml-56 mr-0 whitespace-nowrap border-2 border-secondary text-secondary my-[30px] px-[20px] py-[10px] rounded-full hover:bg-secondary hover:text-white transition-all duration-300 max-w-52">
+            <p  className="text-center w-full m-auto">Talk To Sales</p>
           </button>
         </div>
 
@@ -110,7 +120,7 @@ export default function Navbar() {
             {link.title}
           </Link>
         ))}
-        <button className="whitespace-nowrap text-bold border-2 border-secondary text-secondary my-[30px] px-[20px] py-[10px] rounded-full hover:bg-secondary hover:text-white transition-all duration-300 max-w-52 mx-auto">
+        <button onClick={talkToSales} className="whitespace-nowrap text-bold border-2 border-secondary text-secondary my-[30px] px-[20px] py-[10px] rounded-full hover:bg-secondary hover:text-white transition-all duration-300 max-w-52 mx-auto">
           <strong>
             Talk To Sales
           </strong>
@@ -129,7 +139,7 @@ export default function Navbar() {
           </Link>
         ))}
       </span>
-      <button className="md:flex hidden whitespace-nowrap border-2 border-secondary text-secondary my-[30px] px-[20px] py-[10px] rounded-full hover:bg-secondary hover:text-white transition-all duration-300 max-w-52 mx-[8%]">
+      <button onClick={talkToSales} className="md:flex hidden whitespace-nowrap border-2 border-secondary text-secondary my-[30px] px-[20px] py-[10px] rounded-full hover:bg-secondary hover:text-white transition-all duration-300 max-w-52 mx-[8%]">
         <strong className="text-center w-full m-auto font-[600]">Talk To Sales</strong>
       </button>
     </div>
