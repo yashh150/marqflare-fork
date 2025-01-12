@@ -3,7 +3,7 @@ import Image from "next/image"
 
 export default function BrandLight() {
   return (
-    <div className="flex flex-col my-[80px] py-[90px] bg-[#d2d8c5]">
+    <div className="flex flex-col mt-[80px] mb-[-30px] py-[90px] bg-[#d2d8c5]">
       <h1 className='text-center w-3/4 mx-auto mb-3 mt-10 text-[#2e3224] text-3xl md:text-[2.8rem] leading-tight font-semibold'>
       Driving Success with <br>
       </br>

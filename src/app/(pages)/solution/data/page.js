@@ -61,7 +61,7 @@ export default function page() {
           creation and integrated flagship campaigns.
       </p>
       <div className="flex flex-col max-w-[1200px] m-auto">
-      <div className="flex flex-row">
+      <div className="flex flex-col md:flex-row items-center">
 
       {
         solnArray.map((soln , index)=>
@@ -70,7 +70,7 @@ export default function page() {
         )
       }
       </div>
-      <div className="flex flex-row justify-around">
+      <div className="flex flex-col md:flex-row items-center">
 
       {
         solnArray.map((soln , index)=>
@@ -79,7 +79,7 @@ export default function page() {
         )
       }
       </div>
-      <div className="flex flex-row">
+      <div className="flex flex-col md:flex-row items-center">
 
       {
         solnArray.map((soln , index)=>

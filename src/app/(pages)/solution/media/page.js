@@ -3,7 +3,7 @@ import mediaHero from "@/../public/assets/mediaHero.svg"
 import MainSolutionCard from "@/app/components/SolutionCard/MainSolutionCard"
 const solnArray = [
   {
-    title : "Media Colabs \n& Stretegy",
+    title : "Media Buying \n& Planning",
     desc : "Maximize ROI by strategically \nplanning and buying media, \nensuring optimal ad placements, \naudience targeting, and increased \nbrand visibility.", 
     imgLight : "../assets/colabLight.svg" , 
     imgDark : "../assets/colabDark.svg"
@@ -62,7 +62,7 @@ export default function page() {
           creation and integrated flagship campaigns.
       </p>
       <div className="flex flex-col max-w-[1200px] m-auto">
-      <div className="flex flex-row">
+      <div className="flex flex-col md:flex-row items-center">
 
       {
         solnArray.map((soln , index)=>
@@ -71,7 +71,7 @@ export default function page() {
         )
       }
       </div>
-      <div className="flex flex-row justify-around">
+      <div className="flex flex-col md:flex-row items-center">
 
       {
         solnArray.map((soln , index)=>
