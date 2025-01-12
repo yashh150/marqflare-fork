@@ -39,7 +39,7 @@ export default function StickyHero() {
   return (
     <div style={{ height: '700vh', }}>
       {
-        scale<=10 &&
+        scale<=12 &&
       <div
         style={{
           display: display,

@@ -19,7 +19,7 @@ export default function Home() {
     <body >
 <Navbar/>
 <Hero/>
-<div className="md:bg-[#E8ECDF] md:pb-[75px] md:mt-[-900px] md:h-[1000px]">
+<div className="md:bg-[#E8ECDF] md:pb-[75px] md:mt-[-100vh] md:h-[200vh]">
 <Solutions />
   </div>
 <Industry />
