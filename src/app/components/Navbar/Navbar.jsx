@@ -11,7 +11,7 @@ import "./Navstyle.css";
 
 
 export default function Navbar() {
-  const locater = window.location.pathname == '/' ? "#" : "/#"
+  const locater = window.location.pathname == '/blogs' ? "#" : "/#"
   console.log(locater)
   const Navlinks = [
     {
