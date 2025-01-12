@@ -28,7 +28,7 @@ export default function Form() {
   return (
     <div id="contact" className='bg-white h-[350px] z-10 mb-20'>
       <div className="w-[80%] m-auto  bg-white rounded-[20px] shadow-lg border relative top-[115px] pb-[10px] max-w-[1200px]">
-      <h1 className="w-[90%] mt-[47px] mx-auto text-center text-primary text-3xl md:text-[3rem] font-semibold leading-normal">Let&apos;s make it happen!</h1>
+      <h1 className="w-[90%] mt-[47px] mx-auto text-center text-primary text-3xl md:text-[3rem] font-semibold leading-normal">Lets make it happen!</h1>
       <p className='m-auto text-center text-[#464b37] text-sm font-normal leading-normal'>
       Discover how Marqflare can help you achieve success. Fill out the form <br/>to speak with one of our experts today!
 
