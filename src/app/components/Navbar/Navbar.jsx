@@ -30,12 +30,21 @@ export default function Navbar() {
     },
   
     ];
+
+    const router = useRouter();
+  const handleRedirection = ()=>{
+    if(window.location.pathname == '/blogs'){
+
+      router.push("/");
+      
+      
+    }
+  }
   const [open, setOpen] = useState(false);
   const handleToggle = () => {
     setOpen(!open);
   };
 
-  const router = useRouter();
    const talkToSales = () => {
   // 
   const contactElement = document.getElementById("contact");
@@ -110,6 +119,7 @@ export default function Navbar() {
       >
         {Navlinks.map((link, index) => (
           <Link
+          onClick={handleRedirection}
             className="my-[40px] w-full  px-auto text-center whitespace-nowrap text-primary"
             href={link.href}
             key={index}
@@ -128,6 +138,7 @@ export default function Navbar() {
       >
         {Navlinks.map((link, index) => (
           <Link
+            onClick={handleRedirection}
             className="my-[40px] w-full  px-auto text-center whitespace-nowrap text-primary"
             href={link.href}
             key={index}

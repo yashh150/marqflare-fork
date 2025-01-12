@@ -34,7 +34,7 @@ const SolutionsArray = [
 
 export default function Solutions() {
   return (
-    <div id="solutions" className="md:sticky md:top-[100px]">
+    <div  className="md:sticky md:top-[100px]">
       <p className=" w-[90%] mb-[50px] mx-auto text-center text-[#2e3224] text-5xl font-medium leading-normal">
       Learn what we can do for you
       </p>
