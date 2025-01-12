@@ -6,7 +6,7 @@ import astronaut from "@/../public/assets/astronaut.svg"
 export default function Hero() {
 
   return (
-    <div className='mt-[83px] w-full flex-col transition-all duration-500'>
+    <div className='mt-[83px] overflow-clip w-full flex-col transition-all duration-500'>
       <h1 className='max-w-[940px] w-full sm:text-[2.5rem] sm:leading-[3.75rem] sm:font-semibold text-[2rem] leading-[3rem] font-semibold text-[#2e3224] mx-auto text-center'>
       Evolving Brand & Communication <br/>Strategy with Tech, Data, and Creativity
       </h1>
@@ -27,7 +27,7 @@ export default function Hero() {
           ></Image>
            
         </button>
-<div className="h-[500vh]  z-0 hidden md:block">
+<div className="h-[500vh] mt-[-100px] z-0 hidden md:block">
 
 <StickyHero/>
 </div>

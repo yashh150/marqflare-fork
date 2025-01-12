@@ -19,16 +19,16 @@ export default function Home() {
     <body >
 <Navbar/>
 <Hero/>
+<div className="md:bg-[#E8ECDF] md:pb-[75px] md:mt-[-900px] md:h-[1000px]">
 <Solutions />
-<div className="md:relative md:top-[-300px]">
-
+  </div>
 <Industry />
 <Whatsnew/>
 <Trust/>
 <Recognition />
 <Form />
 <Footer />
-</div>
+
     </body>
   );
 }

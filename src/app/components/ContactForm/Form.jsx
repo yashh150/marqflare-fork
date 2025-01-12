@@ -52,14 +52,19 @@ export default function Form() {
           id="demo-simple-select-standard"
           value={age}
           onChange={handleChange}
-          label="Age"
+          label="How did you find us?"
         >
           <MenuItem value="">
             <em>None</em>
           </MenuItem>
-          <MenuItem value={10}>Ten</MenuItem>
-          <MenuItem value={20}>Twenty</MenuItem>
-          <MenuItem value={30}>Thirty</MenuItem>
+          <MenuItem value="Search engines">Search engines</MenuItem>
+          <MenuItem value="Internet ads">Internet ads</MenuItem>
+          <MenuItem value="Social media">Social media</MenuItem>
+          <MenuItem value="Customer review sites">Customer review sites</MenuItem>
+          <MenuItem value="Comparison sites">Comparison sites</MenuItem>
+          <MenuItem value="Referral">Referral</MenuItem>
+          <MenuItem value="Customer testimonials">Customer testimonials</MenuItem>
+          <MenuItem value="Other">Other</MenuItem>
         </Select>
       </FormControl>
   </div>

@@ -39,7 +39,7 @@ export default function Whatsnew() {
       
         </div>
 
-
+        
         <div className="flex flex-col md:w-full w-[90%] mx-auto mt-10">
             <div className="flex md:flex-row items-center flex-col justify-around">
 

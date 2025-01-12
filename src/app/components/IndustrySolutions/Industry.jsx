@@ -55,7 +55,7 @@ export default function Industry() {
       Solution for Industries
       </h1>
       <p className='md:w-1/2 mt-[15px] w-3/4 m-auto text-center text-[#e8ecdf] text-sm font-norma leading-normal'>
-      Discover our solutions for every industry. Enhance the customer experience through advanced personalization at every touchpoint in their journey, leveraging data-driven insights to build and sustain robust customer relationships
+      Discover our solutions for every industry. Enhance the customer experience through advanced <br/>personalization at every touchpoint in their journey, leveraging data-driven insights to build and sustain <br/>robust customer relationships
 
       </p>
       </div>

@@ -4,6 +4,30 @@ import Image from "next/image";
 import { useRef } from "react";
 import "./TrustStyle.css";
 export default function Trust() {
+
+  const reviews = [
+    {
+      name: "Chitra Surana",
+      position: "Head - Marketing & Alliances @ Inkspell Solutions",
+      img: "assets/chitra.svg",
+      review: "Marqflare transformed our business with expert \ntracking, data analysis, user funnel optimisation, and \nconversion tracking. Their growth-driven marketing \nsolutions and attribution modelling have significantly \nboosted our performance and ROI."
+    },
+    {
+      name: "Ayush Panwar",
+      position: "Assistant Vice President - Social+ @ Rusk Media",
+      img: "assets/ayyush.svg",
+      review:
+        "Marqflare supercharged our business with targeted \ndata analysis, audience segmentation, and cohort \ninsights. Their expertise in user retention, conversion \ntracking, and funnel optimisation has led to \nsignificant growth in ROI and customer acquisition."
+    },
+    {
+      name: "Naitri Shah",
+      position: "Assistant Vice President - Social+ @ Rusk Media \nProduct Manager @ Kokuyo Camlin",
+      img: "assets/naitru.svg",
+      review:
+        "Marqflare expertly strategised, executed, and optimised our \ncampaigns to reduce cart abandonment rates and increase \nCLTV. Their focus on improving average order value and \nconversion rates significantly boosted engagement & sales."
+    },
+  ]
+
   const HorizontalScroll = useRef(null);
   const onLeft = () => {
     HorizontalScroll.current.scrollBy({ left: -1000, behavior: "smooth" });
@@ -24,9 +48,9 @@ export default function Trust() {
           empowering businesses of all sizes to grow successfully.
         </p>
       </div>
-      <div className="flex flex-row m-auto w-[95%] justify-between">
+      <div className="flex flex-row m-auto w-full justify-between">
         <Image
-          className="w-5 sm:mx-10 mx-1"
+          className="w-5 sm:mx-7 mx-1"
           src="assets/leftArrow.svg"
           width={10}
           height={10}
@@ -38,112 +62,13 @@ export default function Trust() {
           ref={HorizontalScroll}
           className="flex flex-1 flex-row overflow-scroll w-1/2 no-scrollbar"
         >
-          <div className="flex flex-col my-10  m-5 ">
-            <div className="w-[114px]  h-[114px] bg-[#d9d9d9] rounded-full border-2 mb-[-57px] z-10 border-white m-auto">
-              <Image
-                src="assets/chitra.svg"
-                width={115}
-                height={50}
-                alt="logo"
-                className="m-auto"
-              ></Image>
-            </div>
-
-            <div className="w-[520px] h-[300px] bg-[#d2d8c5] rounded-[10px] m-auto z-0 p-[60px] ">
-              <div>
-                <span class="text-[#464b37] text-[22px] font-semibold leading-normal tracking-tight">
-                  Chitra Surana
-                  <br />
-                </span>
-                <span class="text-[#464b37] text-lg font-normal leading-normal tracking-tight">
-                  Head - Marketing & Alliances @ Inkspell Solutions
-                  <br />
-                </span>
-                <span class="text-[#464b37] text-lg font-normal  leading-4 tracking-tight">
-                  <br />
-                  Marqflare transformed our business with expert
-                  <br />
-                  tracking, data analysis, user funnel optimisation, and
-                  <br />
-                  conversion tracking.Their growth-driven marketing
-                  <br />
-                  solutions and attribution modelling have significantly
-                  <br />
-                  boosted our performance and ROI.
-                </span>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col my-10  m-5 ">
-            <div className="w-[114px]  h-[114px] bg-[#d9d9d9] rounded-full border-2 mb-[-57px] z-10 border-white m-auto">
-              <Image
-                src="assets/ayyush.svg"
-                width={115}
-                height={50}
-                alt="logo"
-                className="m-auto"
-              ></Image>
-            </div>
-
-            <div className="w-[520px] h-[300px] bg-[#d2d8c5] rounded-[10px] m-auto z-0 p-[60px] ">
-              <div class="w-[470.83px]">
-                <span class="text-[#464b37] text-[22px] font-semibold leading-normal tracking-tight">
-                  Ayush Panwar
-                  <br />
-                </span>
-                <span class="text-[#464b37] text-lg font-normal leading-normal tracking-tight">
-                  Assistant Vice President - Social+ @ Rusk Media
-                  <br />
-                  <br />
-                  Marqflare supercharged our business with targeted data
-                  analysis, audience segmentation, and cohort insights. Their
-                  expertise in user retention, conversion tracking, and funnel
-                  optimisation has led to significant growth in ROI and customer
-                  acquisition.
-                  <br />
-                </span>
-              </div>
-            </div>
-          </div>
-          <div className="flex flex-col my-10  m-5 ">
-            <div className="w-[114px]  h-[114px] bg-[#d9d9d9] rounded-full border-2 mb-[-57px] z-10 border-white m-auto">
-              <Image
-                src="assets/naitru.svg"
-                width={115}
-                height={50}
-                alt="logo"
-                className="m-auto"
-              ></Image>
-            </div>
-
-            <div className="w-[520px] h-[300px] bg-[#d2d8c5] rounded-[10px] m-auto z-0 p-[60px] ">
-              <div>
-                <span class="text-[#464b37] text-[22px] font-semibold leading-normal tracking-tight">
-                  Chitra Surana
-                  <br />
-                </span>
-                <span class="text-[#464b37] text-lg font-normal leading-normal tracking-tight">
-                  Head - Marketing & Alliances @ Inkspell Solutions
-                  <br />
-                </span>
-                <span class="text-[#464b37] text-lg font-normal  leading-4 tracking-tight">
-                  <br />
-                  Marqflare transformed our business with expert
-                  <br />
-                  tracking, data analysis, user funnel optimisation, and
-                  <br />
-                  conversion tracking.Their growth-driven marketing
-                  <br />
-                  solutions and attribution modelling have significantly
-                  <br />
-                  boosted our performance and ROI.
-                </span>
-              </div>
-            </div>
-          </div>
+          <ReviewCard props={reviews[0]}/>
+          <ReviewCard props={reviews[1]}/>
+          <ReviewCard props={reviews[2]}/>
+          
         </div>
         <Image
-          className="w-5 sm:mx-10 mx-1"
+          className="w-5 sm:mx-7 mx-1"
           src="assets/rightArrow.svg"
           width={10}
           height={10}
