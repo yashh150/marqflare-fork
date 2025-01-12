@@ -7,32 +7,31 @@ import { useState } from "react";
 import Logo from "@/../public/assets/logo.svg"
 
 import "./Navstyle.css";
-const Navlinks = [
-  {
-    title: "Solutions",
-    href: "#solutions",
-  },
-  {
-    title: "Industries",
-    href: "#industries",
-  },
-  {
-    title: "Customers",
-    href: "#customers",
-  },
-  {
-    title: "Learning",
-    href: "/blogs",
-  },
-  // {
-  //   title: "Contact Us",
-  //   href: "#contact",
-  // },
-];
 
 
 
 export default function Navbar() {
+  const locater = window.location.pathname == '/' ? "#" : "/#"
+  console.log(locater)
+  const Navlinks = [
+    {
+      title: "Solutions",
+      href: locater + "solutions",
+    },
+    {
+      title: "Industries",
+      href: locater + "industries",
+    },
+    {
+      title: "Customers",
+      href: locater + "customers",
+    },
+    {
+      title: "Learning",
+      href: "/blogs",
+    },
+  
+    ];
   const [open, setOpen] = useState(false);
   const handleToggle = () => {
     setOpen(!open);
