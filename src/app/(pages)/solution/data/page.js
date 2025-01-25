@@ -44,15 +44,25 @@ const solnArray = [
 export default function page() {
   return (
     <div>
-      <div className="flex h-[500px] bg-[#E8ECDF] ">
-        <Image
-        className="p-10 mx-auto"
-        src={mediaHero}
-        width={1500}
-        height={1000}
-        alt=""/>
-      </div>
-      <h1 className="w-[90%] mx-auto text-center mt-[50px] text-[#2E3224] text-5xl md:text-[3rem] font-semibold leading-normal">Our Media Solutions</h1>
+        <div className="relative h-[500px] flex">
+    {/* Video Background */}
+    <video
+      autoPlay
+      loop
+      muted
+      playsInline
+      className="h-full w-full object-cover"
+    >
+      <source src="/assets/data.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+
+    {/* Overlay Filter */}
+    <div className="absolute inset-0 h-[500px] bg-[#5A6344] bg-opacity-50"></div>
+
+    
+  </div>
+      <h1 className="w-[90%] mx-auto text-center mt-[50px] text-[#2E3224] text-5xl md:text-[3rem] font-semibold leading-normal">Our Data Solutions</h1>
       <p className='md:w-1/2  w-3/4 mx-auto mt-[12px] mb-[40px] text-center text-[#464b37] text-sm font-normal leading-normal'>
         Our team of strategists, designers, video editors, and animators offers comprehensive solutions
         <br/>

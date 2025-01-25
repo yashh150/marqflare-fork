@@ -23,7 +23,7 @@ const SolutionArray = [
 const DomainArray = [
     {
       title : "Politics",
-      link : "industry/politics"
+      link : "/industry/politics"
     },
   {
     title:"Ed Tech",
