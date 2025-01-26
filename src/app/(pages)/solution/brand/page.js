@@ -71,7 +71,7 @@ export default function page() {
       playsInline
       className="h-full w-full object-cover"
     >
-      <source src="/assets/data.mp4" type="video/mp4" />
+      <source src="/assets/brand.mp4" type="video/mp4" />
       Your browser does not support the video tag.
     </video>
 
