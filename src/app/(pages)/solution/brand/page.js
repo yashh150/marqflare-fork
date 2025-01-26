@@ -1,5 +1,6 @@
 import Image from "next/image"
 import brandHero from "@/../public/assets/brandHero.svg"
+import Head from "next/head"
 import MainSolutionCard from "@/app/components/SolutionCard/MainSolutionCard"
 const solnArray = [
   {
@@ -32,6 +33,7 @@ const solnArray = [
     imgLight : "../assets/filmLight.svg" , 
     imgDark : "../assets/filmDark.svg"
   },
+
   {
     title : "Campaign \nPlanning",
     desc : "Design effective campaigns with \ndata-driven strategies, optimizing \nreach, engagement, and \nconversion to ensure maximum \nROI and growth.", 
@@ -61,6 +63,10 @@ const solnArray = [
 
 export default function page() {
   return (
+    <>
+    <Head>
+        <link rel="preload" href="/assets/brand.mp4" as="video" type="video/mp4" />
+      </Head>
     <div>
         <div className="relative h-[500px] flex">
     {/* Video Background */}
@@ -117,5 +123,6 @@ export default function page() {
       </div>
 
     </div>
+    </>
   )
 }

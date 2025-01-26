@@ -1,6 +1,7 @@
 import Image from "next/image"
 import mediaHero from "@/../public/assets/mediaHero.svg"
 import MainSolutionCard from "@/app/components/SolutionCard/MainSolutionCard"
+import Head from "next/head"
 const solnArray = [
   {
     title : "Data Collection \nand Integration",
@@ -43,6 +44,10 @@ const solnArray = [
 
 export default function page() {
   return (
+    <>
+    <Head>
+        <link rel="preload" href="/assets/data.mp4" as="video" type="video/mp4" />
+      </Head>
     <div>
         <div className="relative h-[500px] flex">
     {/* Video Background */}
@@ -100,5 +105,6 @@ export default function page() {
       </div>
       </div>
     </div>
+    </>
   )
 }

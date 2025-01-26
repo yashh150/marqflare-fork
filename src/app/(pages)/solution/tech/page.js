@@ -1,6 +1,7 @@
 import Image from "next/image"
 import techHero from "@/../public/assets/tech.mp4"
 import MainSolutionCard from "@/app/components/SolutionCard/MainSolutionCard"
+import Head from "next/head"
 const solnArray = [
   {
     title : "Custom Web \nDevelopment",
@@ -44,6 +45,10 @@ const solnArray = [
 
 export default function page() {
   return (
+    <>
+    <Head>
+        <link rel="preload" href="/assets/data.mp4" as="video" type="video/mp4" />
+      </Head>
     <div>
       <div>
   <div className="relative h-[500px] flex">
@@ -96,5 +101,6 @@ export default function page() {
       </div>
 
     </div>
+    </>
   )
 }
