@@ -12,7 +12,7 @@ export default function RootLayout({ children }) {
   return (
 <html>
   {/* Facebook Domain Verification */}
-  <meta name="facebook-domain-verification" content="yqnpy714fp1dwetc1h1f761wsvag7w" />
+  <meta name="facebook-domain-verification" content="9r8qen54ivqir4s8ygesyy75dsd2ba" />
   <body className={inter.className}>{children}</body>
 </html>
   
